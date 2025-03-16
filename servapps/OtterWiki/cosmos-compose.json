@@ -29,14 +29,10 @@
   "minVersion": "0.7.6",
   "services": {
     "{ServiceName}": {
-      "image": "redimp/otterwiki:2-slim",
+      "image": "redimp/otterwiki:2",
       "container_name": "{ServiceName}",
       "restart": "unless-stopped",
-      "UID": 33,
-      "GID": 33,
       "environment": [
-        "PUID=33",
-        "PGID=33",
         "TZ=auto",
         "SITE_NAME={Context.siteName}",
         "SITE_DESCRIPTION={Context.siteDescription}"
@@ -63,7 +59,7 @@
           "name": "{ServiceName}",
           "description": "Expose {ServiceName} to the web",
           "useHost": true,
-          "target": "http://{ServiceName}:8080",
+          "target": "http://{ServiceName}:80",
           "mode": "SERVAPP",
           "Timeout": 14400000,
           "ThrottlePerMinute": 12000,
