@@ -1,0 +1,9 @@
+{
+  "name": "WikMD",
+  "longDescription": "<p>It's a file-based wiki that aims to simplicity. The documents are completely written in Markdown which is an easy markup language that you can learn in 60 sec.</p><p>Instead of storing the data in a database I chose to have a file-based system. The advantage of this system is that every file is directly readable inside a terminal etc. Also when you have direct access to the system you can export the files to anything you like.</p><p>To view the documents in the browser, the document is converted to html.</p>",
+  "description": "A simple, file-based wiki using Markdown",
+  "tags": ["wiki", "markdown", "file-based", "git"],
+  "repository": "https://github.com/Linbreux/wikmd",
+  "image": "https://hub.docker.com/r/linbreux/wikmd",
+  "supported_architectures": ["amd64", "arm64"]
+}
