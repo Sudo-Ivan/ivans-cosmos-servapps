@@ -13,6 +13,7 @@ https://sudo-ivan.github.io/ivans-cosmos-servapps/index.json
 ### Wikis
 
 - WikMD `latest`
+- OtterWiki `2-slim`
 
 ### Recipe Management
 

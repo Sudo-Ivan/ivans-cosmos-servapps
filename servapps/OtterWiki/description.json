@@ -1,0 +1,9 @@
+{
+  "name": "OtterWiki",
+  "longDescription": "<p>OtterWiki is a minimalistic Python-based wiki software that uses Git for content storage and version control. Content is written in Markdown with extended features like tables, footnotes, fancy blocks, alerts and mermaid diagrams.</p><p>Key features include a dark mode interface, markdown editor with syntax highlighting, customizable sidebar with menu and page index, full changelog tracking, user authentication, page attachments, and experimental Git HTTP server support for cloning and pushing content.</p><p>Built with Flask and using Halfmoon CSS framework, it provides a clean and efficient wiki experience with version control built-in.</p>",
+  "description": "Minimalistic Git-based wiki with Markdown support and version control",
+  "tags": ["wiki", "markdown", "git", "collaboration", "documentation"],
+  "repository": "https://github.com/redimp/otterwiki",
+  "image": "https://hub.docker.com/r/redimp/otterwiki",
+  "supported_architectures": ["amd64", "arm64", "armv7", "armv6"]
+} 

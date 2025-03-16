@@ -1,0 +1,77 @@
+{
+  "cosmos-installer": {
+    "form": [
+      {
+        "name": "dataPath",
+        "label": "Where should OtterWiki store its data?",
+        "initialValue": "{DefaultDataPath}/otterwiki",
+        "type": "text"
+      },
+      {
+        "name": "siteName",
+        "label": "Wiki Site Name",
+        "initialValue": "My OtterWiki",
+        "type": "text"
+      },
+      {
+        "name": "siteDescription",
+        "label": "Wiki Description",
+        "type": "text"
+      }
+    ],
+    "post-install": [
+      {
+        "type": "info",
+        "label": "The first account you register will be an admin account with access to all settings."
+      }
+    ]
+  },
+  "minVersion": "0.7.6",
+  "services": {
+    "{ServiceName}": {
+      "image": "redimp/otterwiki:2-slim",
+      "container_name": "{ServiceName}",
+      "restart": "unless-stopped",
+      "environment": [
+        "TZ=auto",
+        "SITE_NAME={Context.siteName}",
+        "SITE_DESCRIPTION={Context.siteDescription}"
+      ],
+      "labels": {
+        "cosmos-force-network-secured": "true",
+        "cosmos-auto-update": "true",
+        "cosmos-icon": "https://Sudo-Ivan.github.io/ivans-cosmos-servapps/servapps/OtterWiki/icon.png",
+        "cosmos-stack": "{ServiceName}",
+        "cosmos-stack-main": "{ServiceName}"
+      },
+      "networks": {
+        "{ServiceName}-network": {}
+      },
+      "volumes": [
+        {
+          "source": "{Context.dataPath}",
+          "target": "/app-data",
+          "type": "bind"
+        }
+      ],
+      "routes": [
+        {
+          "name": "{ServiceName}",
+          "description": "Expose {ServiceName} to the web",
+          "useHost": true,
+          "target": "http://{ServiceName}:80",
+          "mode": "SERVAPP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": true
+          }
+        }
+      ]
+    }
+  },
+  "networks": {
+    "{ServiceName}-network": {}
+  }
+} 
