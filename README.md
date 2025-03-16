@@ -21,3 +21,7 @@ https://sudo-ivan.github.io/ivans-cosmos-servapps/index.json
 ### Finance
 
 - Wallos `latest`
+
+### Bookmarking
+
+- Linkwarden `latest`
