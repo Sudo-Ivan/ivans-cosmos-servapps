@@ -3141,6 +3141,29 @@
     "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Vaultwarden/cosmos-compose.json"
   },
   {
+    "name": "Wallos",
+    "longDescription": "<p>Wallos is a self-hostable web application designed to help you manage and track your subscriptions and recurring payments. It provides comprehensive features for subscription management, multi-currency support, and financial tracking.</p><p>Key features include subscription management, category organization, multi-currency support with currency conversion, customizable notifications, statistics and graphs, and a mobile-friendly interface.</p><p>Your financial data remains private and secure on your own server with this self-hosted solution.</p>",
+    "description": "Open-source personal subscription tracker and manager",
+    "tags": [
+      "finance",
+      "subscription",
+      "tracker",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/ellite/Wallos",
+    "image": "https://hub.docker.com/r/bellamy/wallos",
+    "supported_architectures": [
+      "amd64"
+    ],
+    "id": "Wallos",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Wallos/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Wallos/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Wallos/cosmos-compose.json"
+  },
+  {
     "name": "Webtop",
     "longDescription": "<p>Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser</p>",
     "description": "Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser",
