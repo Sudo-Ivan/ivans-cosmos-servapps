@@ -1,0 +1,3438 @@
+[
+  {
+    "name": "Actual",
+    "longDescription": "<p>Actual Budget is a super fast and privacy-focused app for managing your finances. At its heart is the well proven and much loved Envelope Budgeting methodology. You own your data and can do whatever you want with it.Featuring multi - device sync,optional end - to - end encryption and so much more. < /p>",
+    "description": "Automated finance tools are great, except when they aren’t. We provide you with tools that are quick to use, but ultimately you are in control. We help you learn, instead of dictating.",
+    "tags": [
+      "Automated",
+      "finance",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/actualbudget/actual-server/",
+    "image": "https://hub.docker.com/r/actualbudget/actual-server",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Actual-server",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Actual-server/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Actual-server/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Actual-server/screenshots/3.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Actual-server/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Actual-server/cosmos-compose.json"
+  },
+  {
+    "name": "Audacity",
+    "longDescription": "<p>Audacity is a renowned open-source audio editing and recording software. Known for its versatility and ease of use, it is widely used by professionals and hobbyists alike for a range of audio editing tasks. Audacity supports multi-track editing, a host of audio effects, and extensive file format compatibility.</p><p>Its intuitive user interface allows users to easily record live audio, convert tapes and records into digital recordings or CDs, edit sound files, and more. Audacity also features powerful analysis tools and can be extended with a variety of plug-ins.</p><p>Available on multiple platforms including Windows, MacOS, and Linux, Audacity is the go-to solution for anyone looking to perform high-quality audio editing and recording without the need for expensive software.</p>",
+    "description": "Audacity is a free, open-source, cross-platform audio software for multi-track editing and recording. It offers a comprehensive suite of tools for editing audio, adding effects, and supporting various file formats. With an intuitive interface, it is ideal for both beginners and professionals looking to produce high-quality audio on Windows, MacOS, and Linux.",
+    "tags": [
+      "audio editing",
+      "recording",
+      "open-source",
+      "audacity",
+      "windows",
+      "linux",
+      "macos",
+      "multi-track",
+      "sound effects",
+      "file conversion",
+      "plug-ins"
+    ],
+    "repository": "https://github.com/audacity/audacity",
+    "image": "https://hub.docker.com/r/linuxserver/audacity",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Audacity",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Audacity/screenshots/1.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Audacity/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Audacity/cosmos-compose.json"
+  },
+  {
+    "name": "Audiobookshelf",
+    "longDescription": "<p>Audiobookshelf is an open-source, self-hosted, audiobook and podcast server. It features an Android and iOS app for streaming your library, multi-user support, storing progress per user, and syncing across devices.</p><p>It also includes various audiobook management services like metadata fetching, chapter editing tools, and media merging.</p>",
+    "description": "Audiobookshelf is a self-hosted audiobook and podcast server.",
+    "tags": [
+      "e-book",
+      "library",
+      "audiobook",
+      "open-source",
+      "management",
+      "audiobookshelf",
+      "docker",
+      "linux",
+      "ios",
+      "android"
+    ],
+    "repository": "https://github.com/advplyr/audiobookshelf",
+    "image": "https://hub.docker.com/r/advplyr/audiobookshelf",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Audiobookshelf",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Audiobookshelf/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Audiobookshelf/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Audiobookshelf/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Audiobookshelf/cosmos-compose.json"
+  },
+  {
+    "name": "Baserow",
+    "longDescription": "<p>Create your own database without technical experience. Our user friendly no-code tool gives you the powers of a developer without leaving your browser.</p>",
+    "description": "Open source no-code database and Airtable alternative",
+    "tags": [
+      "database",
+      "no-code",
+      "airtable"
+    ],
+    "repository": "https://gitlab.com/baserow/baserow",
+    "image": "https://hub.docker.com/r/baserow/baserow",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Baserow",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Baserow/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Baserow/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Baserow/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Baserow/cosmos-compose.json"
+  },
+  {
+    "name": "Bazarr",
+    "longDescription": "<p>Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements. It was designed with the aim to make it easier for users to find and download subtitles for their media content.</p><p>Bazarr provides a simple and efficient interface to manage your subtitle collection, supporting many languages and integrating with popular subtitle providers. The software works seamlessly with Sonarr and Radarr to provide a unified experience for managing your media.</p><p>Bazarr supports a variety of platforms including Windows, Linux, and MacOS, and also offers a mobile-friendly web interface. Setting up Bazarr is easy, making it a must-have tool for anyone using Sonarr and Radarr.</p>",
+    "description": "Bazarr is an automated subtitle download application designed to complement Sonarr and Radarr. It simplifies the process of finding and downloading subtitles in various languages. Bazarr supports Windows, Linux, MacOS and provides a mobile-friendly web interface. If you're using Sonarr and Radarr, Bazarr can enhance your media management experience.",
+    "tags": [
+      "download",
+      "subtitle",
+      "automation",
+      "downloader",
+      "media",
+      "collection",
+      "sonarr",
+      "radarr",
+      "windows",
+      "linux",
+      "macos",
+      "web interface",
+      "movie management",
+      "media management",
+      "bazarr"
+    ],
+    "repository": "https://github.com/morpheus65535/bazarr",
+    "image": "https://hub.docker.com/r/linuxserver/bazarr",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Bazarr",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Bazarr/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Bazarr/screenshots/2.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Bazarr/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Bazarr/cosmos-compose.json"
+  },
+  {
+    "name": "Blender",
+    "longDescription": "<p>Blender is a powerful open-source tool for 2D and 3D graphics, full-on animations, sculpting, rendering, compositing, motion tracking, and game creation. It stands out for its incredible versatility and comprehensive feature set. Blender is widely used for its advanced capabilities in modeling, texturing, and animation.</p><p>With a user-friendly interface and an extensive range of tools and features, Blender is suitable for both amateurs and professionals. It supports the entirety of the 3D pipeline and is continuously updated by a global community of contributors.</p><p>Blender is cross-platform, functioning seamlessly on Windows, MacOS, and Linux. It is the go-to tool for artists, designers, and animators who require a robust, flexible, and free tool for their creative endeavors.</p>",
+    "description": "Blender is a free and open-source 3D creation suite supporting the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing, and motion tracking. It's versatile and powerful, equipped with a wide range of tools for creative professionals and hobbyists alike. Blender works across various platforms, offering advanced features for 3D graphics, animation, and more.",
+    "tags": [
+      "3d modeling",
+      "animation",
+      "rendering",
+      "open-source",
+      "blender",
+      "windows",
+      "linux",
+      "macos",
+      "game creation",
+      "motion tracking",
+      "compositing",
+      "visual effects"
+    ],
+    "repository": "https://github.com/blender/blender",
+    "image": "https://hub.docker.com/r/linuxserver/blender",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Blender",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Blender/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Blender/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Blender/cosmos-compose.json"
+  },
+  {
+    "name": "Cachet",
+    "longDescription": "<p>Cachet is an open-source status page system designed to help you keep track of your system status and share it with your user base. It is built to be responsive and works seamlessly across different devices.</p>",
+    "description": "Cachet, the open-source status page system.",
+    "tags": [
+      "technical",
+      "administration",
+      "server",
+      "open-source",
+      "self-hosted",
+      "monitoring",
+      "uptime",
+      "service status",
+      "notifications",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/cachethq/cachet/",
+    "image": "https://hub.docker.com/r/vouu/cachet/",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Cachet",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Cachet/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Cachet/screenshots/2.jpeg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Cachet/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Cachet/cosmos-compose.json"
+  },
+  {
+    "name": "Calibre",
+    "longDescription": "<p>Calibre is a powerful, open-source e-book management tool. It allows users to organize, save and manage e-books of various formats. Calibre supports a wide range of e-book formats including EPUB, Kindle, PDF, and more.</p><p>With its easy-to-use interface, Calibre allows users to convert e-books from different formats, sync e-books with e-book readers, and even provides news feeds from web sources. Calibre also features a built-in e-book viewer and a server for online access to your book collection.</p><p>Calibre is available for a variety of platforms, including Windows, Linux, and MacOS.</p>",
+    "description": "Calibre is an open-source e-book management tool that allows users to organize, save, and manage e-books of various formats. It supports a wide range of e-book formats and offers features like format conversion, e-book syncing, news feeds from web sources, a built-in e-book viewer, and a server for online access.",
+    "tags": [
+      "e-book",
+      "library",
+      "reader",
+      "open-source",
+      "cross-platform",
+      "management",
+      "calibre",
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "repository": "https://github.com/kovidgoyal/calibre",
+    "image": "https://hub.docker.com/r/linuxserver/calibre",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Calibre",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Calibre/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Calibre/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Calibre/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Calibre/cosmos-compose.json"
+  },
+  {
+    "name": "Calibre-web",
+    "longDescription": "<p>Calibre-web is a web application providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. This software is a fork of the original Calibre web with several additional features and enhancements.</p><p>Calibre-web allows users to sort and categorize eBooks, provides a browser-based eBook reader, and even allows the sending of eBooks to Kindle devices. It also supports user management to control access to the eBook collection and offers the ability to interface with Goodreads for book reviews and recommendations.</p><p>Calibre-web is compatible with Docker and can be used on any platform that supports Docker.</p>",
+    "description": "Calibre-web is a web application providing a clean interface for browsing, reading, and downloading eBooks using an existing Calibre database. It offers features like categorization, a browser-based eBook reader, sending eBooks to Kindle devices, user management, and Goodreads integration.",
+    "tags": [
+      "e-book",
+      "library",
+      "reader",
+      "web interface",
+      "management",
+      "calibre-web",
+      "docker",
+      "reading",
+      "goodreads",
+      "kindle"
+    ],
+    "repository": "https://github.com/janeczku/calibre-web",
+    "image": "https://hub.docker.com/r/linuxserver/calibre-web",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Calibre-Web",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Calibre-Web/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Calibre-Web/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Calibre-Web/cosmos-compose.json"
+  },
+  {
+    "name": "Code-Server",
+    "longDescription": "<p>Code-Server is an open-source project that allows developers to run Visual Studio Code, a popular development environment, on any machine remotely. This makes it possible to code on your cloud server, which can be particularly beneficial when dealing with large datasets, complex computations, or restricted local resources.</p><p>Key features of Code-Server include full Visual Studio Code experience, secure access over SSH or HTTPS, and compatibility with VS Code extensions. It is also designed to be easy to install and get up and running.</p><p>Code-Server is available on various platforms including Windows, Linux, and MacOS, and it supports Docker, making it a highly versatile tool for developers across different environments.</p>",
+    "description": "Code-Server is an open-source tool that enables running Visual Studio Code on a remote server. It provides a full VS Code experience, secure remote access, and compatibility with VS Code extensions. Code-Server is compatible with Windows, Linux, MacOS, and Docker.",
+    "tags": [
+      "development",
+      "visual studio code",
+      "code-server",
+      "open-source",
+      "cross-platform",
+      "VS Code",
+      "development environment",
+      "remote coding",
+      "SSH",
+      "HTTPS",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/cdr/code-server",
+    "image": "https://hub.docker.com/r/codercom/code-server",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "CodeServer",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/CodeServer/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/CodeServer/screenshots/2.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/CodeServer/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/CodeServer/cosmos-compose.json"
+  },
+  {
+    "name": "Cube-js",
+    "longDescription": "<p>Cube was designed to work with all SQL-enabled data sources, including cloud data warehouses like Snowflake or Google BigQuery, query engines like Presto or Amazon Athena, and application databases like Postgres. Cube has a built-in relational caching engine to provide sub-second latency and high concurrency for API requests. < /p>",
+    "description": "Cube is the semantic layer for building data applications. It helps data engineers and application developers access data from modern data stores, organize it into consistent definitions, and deliver it to every application.",
+    "tags": [
+      "Automated",
+      "data applications",
+      "self-hosted",
+      "databases"
+    ],
+    "repository": "https://github.com/cube-js/cube/",
+    "image": "https://hub.docker.com/r/cubejs/cube",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Cube-js",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Cube-js/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Cube-js/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Cube-js/screenshots/3.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Cube-js/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Cube-js/cosmos-compose.json"
+  },
+  {
+    "name": "Dashy",
+    "longDescription": "<p>Dashy helps you organize your self-hosted services by making them accessible from a single place.</p><p>With Dashy, you can create a personalized dashboard for all your self-hosted apps and services. It offers a user-friendly web interface that allows you to organize your services, display real-time status monitoring, use widgets to showcase information, and enable instant search for quick access to your applications. Dashy is highly customizable, supporting various color themes, icon options, and authentication methods for multi-user access.</p><p>It's designed with a focus on privacy, offers multi-language support, and can be easily set up with Docker or deployed on bare metal. Dashy is under active development, continually adding new features, and is 100% free and open-source.</p>",
+    "description": "Dashy helps you create a unified dashboard for your self-hosted services. It offers real-time status monitoring, widgets, instant search, and customization options. Dashy is privacy-focused, cross-platform, and can be easily deployed using Docker. It's a user-friendly solution to streamline access to your self-hosted applications.",
+    "tags": [
+      "self-hosted services",
+      "dashboard",
+      "web interface",
+      "widgets",
+      "customization",
+      "authentication",
+      "privacy-focused",
+      "open-source",
+      "Docker",
+      "cross-platform",
+      "multi-language support"
+    ],
+    "repository": "https://github.com/Lissy93/dashy",
+    "image": "https://hub.docker.com/r/lissy93/dashy",
+    "supported_architectures": [
+      "amd64",
+      "arm32v7",
+      "arm64v8"
+    ],
+    "id": "Dashy",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Dashy/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Dashy/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Dashy/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Dashy/cosmos-compose.json"
+  },
+  {
+    "name": "Deluge",
+    "longDescription": "<p>Deluge is a lightweight, open-source BitTorrent client. It's highly extendable via a rich collection of plugins and is noted for its multi-platform compatibility and low resource demand.</p><p>Key features include support for a wide range of BitTorrent protocols, a web interface for remote control, encryption, peer exchange, speed limits, and proxy support. With its intuitive interface, users can easily download and share files via the BitTorrent protocol.</p><p>Deluge is compatible with various platforms, including Windows, Linux, and MacOS, and it supports Docker, making it a highly versatile tool for various environments.</p>",
+    "description": "Deluge is a lightweight, open-source BitTorrent client known for its extensibility and low resource demand. It supports multiple BitTorrent protocols, offers a web interface for remote control, and includes features like encryption, peer exchange, speed limits, and proxy support. Deluge is compatible with Windows, Linux, MacOS, and Docker.",
+    "tags": [
+      "download",
+      "torrent",
+      "bittorrent",
+      "cross-platform",
+      "BitTorrent client",
+      "file sharing",
+      "peer-to-peer",
+      "p2p",
+      "encryption",
+      "web interface",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/deluge-torrent/deluge",
+    "image": "https://hub.docker.com/r/linuxserver/deluge",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Deluge",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Deluge/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Deluge/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Deluge/cosmos-compose.json"
+  },
+  {
+    "name": "Discourse",
+    "longDescription": "<p>Discourse is an open source Internet forum system. Features include threading, categorization and tagging of discussions, configurable access control, live updates, expanding link previews, infinite scrolling, and real-time notifications. It is customizable via its plugin architecture and its theming system.</p>",
+    "description": "Discourse is modern forum software for your community. Use it as a mailing list, discussion forum, long-form chat room, and more!.",
+    "tags": [
+      "forum",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/bitnami/containers/",
+    "image": "https://hub.docker.com/r/bitnami/Discourse",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Discourse",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Discourse/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Discourse/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Discourse/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Discourse/cosmos-compose.json"
+  },
+  {
+    "name": "Docker Mailserver",
+    "longDescription": "<p>Docker Mailserver is a full-featured, open-source mailserver solution that is designed to run on Docker. It provides a comprehensive set of tools and features needed to run your own mailserver in a production environment.</p><p>Key features of Docker Mailserver include support for various protocols such as SMTP, IMAP, POP3, and LDAP. It also includes SpamAssassin for spam protection, ClamAV for antivirus, Postfix for SMTP, and Dovecot for IMAP/POP3. It also supports DKIM signing to authenticate your email and prevent phishing, and provides automated SSL/TLS certificates via Let's Encrypt.</p><p>Docker Mailserver is designed to be run on any platform that supports Docker, including Linux, MacOS, and Windows.</p>",
+    "description": "Docker Mailserver is a full-featured, open-source mailserver solution that runs on Docker. It supports various protocols such as SMTP, IMAP, POP3, and LDAP, and includes features such as spam protection, antivirus, DKIM signing, and automated SSL/TLS certificates. Docker Mailserver can be run on platforms that support Docker, including Linux, MacOS, and Windows.",
+    "tags": [
+      "email",
+      "mail server",
+      "SMTP",
+      "docker mailserver",
+      "open-source",
+      "mail server",
+      "docker",
+      "IMAP",
+      "POP3",
+      "LDAP",
+      "spam protection",
+      "antivirus",
+      "DKIM",
+      "SSL/TLS",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "repository": "https://github.com/docker-mailserver/docker-mailserver",
+    "image": "https://hub.docker.com/r/mailserver/docker-mailserver",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "DockerMailServer",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/DockerMailServer/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/DockerMailServer/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/DockerMailServer/cosmos-compose.json"
+  },
+  {
+    "name": "Dokuwiki",
+    "longDescription": "<p>DokuWiki is an open source wiki application licensed under GPLv2 and written in the PHP programming language. It works on plain text files and thus does not need a database. Its syntax is similar to the one used by MediaWiki. It is often recommended as a more lightweight, easier to customize alternative to MediaWiki.</p>",
+    "description": "DokuWiki. DokuWiki is a simple to use and highly versatile Open Source wiki software that doesn't require a database.",
+    "tags": [
+      "wiki",
+      "note",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/bitnami/containers/",
+    "image": "https://hub.docker.com/r/bitnami/dokuwiki",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Dokuwiki",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Dokuwiki/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Dokuwiki/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Dokuwiki/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Dokuwiki/cosmos-compose.json"
+  },
+  {
+    "name": "Dozzle",
+    "longDescription": "<p>Dozzle is a small lightweight application with a web based interface to monitor Docker logs. It doesn’t store any log files. It is for live monitoring of your container logs only.</p>",
+    "description": "Dozzle is a real-time log viewer for docker containers.",
+    "tags": [
+      "dozzle",
+      "open-source",
+      "self-hosted",
+      "log viewer"
+    ],
+    "repository": "https://github.com/amir20/dozzle",
+    "image": "https://hub.docker.com/r/amir20/dozzle",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Dozzle",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Dozzle/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Dozzle/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Dozzle/cosmos-compose.json"
+  },
+  {
+    "name": "Drone",
+    "longDescription": "<p>Drone CI is an open-source CI server acquired by Harness. It is used to build and test software, either on a developer's local machine or in a continuous integration environment like any public cloud.</p><p>With Drone, you can automate your software delivery pipeline from code commit to production.</p><p>In addition to building software, Drone allows you to build, test, and deploy your applications.</p><p>Drone CI is considered a modern CI tool as it uses the declarative approach in the form of YAML files to automate tests and extensively employs Docker containers at every step. The build pipelines take less time, and it is easy to set up and run.</p>",
+    "description": "Drone by Harness™ is a modern Continuous Integration platform that empowers busy teams to automate their build, test and release workflows using a powerful, cloud native pipeline engine.",
+    "tags": [
+      "development",
+      "git",
+      "repository management",
+      "code collaboration",
+      "issue tracking",
+      "self-hosted"
+    ],
+    "repository": "https://www.drone.io/",
+    "image": "https://hub.docker.com/r/drone/drone",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Drone",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Drone/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Drone/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Drone/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Drone/cosmos-compose.json"
+  },
+  {
+    "name": "Drupal",
+    "longDescription": "<p>Drupal is distributed with a license usually called open source. It means that in contrast to nearly all other publishing systems of the same magnitude, Drupal is free of charge. There is no fee to download or start using Drupal, and no yearly license payment to continue to use it.</p>",
+    "description": "Drupal runs on any computing platform that supports both a web server capable of running PHP and a database to store content and configuration.",
+    "tags": [
+      "development",
+      "cms",
+      "code collaboration",
+      "self - hosted "
+    ],
+    "repository": "https://github.com/bitnami/containers/",
+    "image": "https://hub.docker.com/r/bitnami/drupal",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Drupal",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Drupal/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Drupal/screenshots/2.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Drupal/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Drupal/cosmos-compose.json"
+  },
+  {
+    "name": "Duplicati",
+    "longDescription": "<p>Duplicati is an open-source backup software designed to secure your data by creating, encrypting, and storing backups of your files. It can backup your files to local drives or various online storage services.</p><p>Key features of Duplicati include AES-256 encryption, incremental backups, scheduling, and automated backups. It also supports backup verification, ensuring that your files are not corrupted or lost. Its web-based interface makes it easy to manage and schedule your backups.</p><p>Duplicati is compatible with various platforms, including Windows, Linux, and MacOS, and it supports Docker, making it a versatile tool for various environments.</p>",
+    "description": "Duplicati is an open-source backup software that creates, encrypts, and stores backups of your files. It offers AES-256 encryption, incremental backups, scheduling, automated backups, and backup verification. Duplicati is compatible with Windows, Linux, MacOS, and Docker.",
+    "tags": [
+      "backup",
+      "automation",
+      "encryption",
+      "open-source",
+      "cross-platform",
+      "backup",
+      "encryption",
+      "scheduling",
+      "automated backup",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/duplicati/duplicati",
+    "image": "https://hub.docker.com/r/duplicati/duplicati",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Duplicati",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Duplicati/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Duplicati/screenshots/2.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Duplicati/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Duplicati/cosmos-compose.json"
+  },
+  {
+    "name": "EMQX",
+    "longDescription": "<p>EMQX is the world's most scalable open-source MQTT broker with a high performance that connects 100M+ IoT devices in 1 cluster, while maintaining 1M message per second throughput and sub-millisecond latency.</p><p>EMQX supports multiple open standard protocols like MQTT, HTTP, QUIC, and WebSocket. It's 100% compliant with MQTT 5.0 and 3.x standard, and secures bi-directional communication with MQTT over TLS/SSL and various authentication mechanisms.</p><p>With the built-in powerful SQL-based rules engine, EMQX can extract, filter, enrich and transform IoT data in real-time. In addition, it ensures high availability and horizontal scalability with a masterless distributed architecture, and provides ops-friendly user experience and great observability.</p> <p>EMQX boasts more than 20K+ enterprise users across 50+ countries and regions, connecting 100M+ IoT devices worldwide, and is trusted by over 400 customers in mission-critical scenarios of IoT, IIoT, connected vehicles, and more, including over 70 Fortune 500 companies like HPE, VMware, Verifone, SAIC Volkswagen, and Ericsson.</p> <p>Default Login : admin/public </p>",
+    "description": "The most scalable open-source MQTT broker for IoT, IIoT, connected vehicles, and more.",
+    "tags": [
+      "mqtt",
+      "emqx",
+      "iot",
+      "home assistant",
+      "smart home",
+      "home automation"
+    ],
+    "repository": "https://github.com/emqx/emqx",
+    "image": "https://hub.docker.com/_/emqx",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "EMQX",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/EMQX/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/EMQX/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/EMQX/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/EMQX/cosmos-compose.json"
+  },
+  {
+    "name": "ESPHome",
+    "longDescription": "<p>ESPhome is a platform for creating custom firmware for ESP8266 and ESP32 chips using YAML configuration files. It turns these definitions into C++ firmware for easy integration of various smart devices.</p><p>ESPhome is seamlessly integrated with Home Assistant, an open-source home automation platform. With this integration, devices configured via ESPhome are automatically discovered and added to Home Assistant setups.</p><p>The platform boasts a robust community and extensive documentation. This, along with features like Over-The-Air (OTA) updates, makes ESPhome a favorite among smart home enthusiasts.</p>",
+    "description": "ESPHome is a system to control your microcontrollers by simple yet powerful configuration files and control them remotely through Home Automation systems.",
+    "tags": [
+      "development",
+      "open-source",
+      "cross-platform",
+      "ESPHome",
+      "Home Assistant",
+      "windows",
+      "linux",
+      "macos",
+      "docker",
+      "automation"
+    ],
+    "repository": "https://github.com/esphome/esphome",
+    "image": "https://github.com/esphome/esphome/pkgs/container/esphome",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "ESPHome",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/ESPHome/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/ESPHome/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/ESPHome/cosmos-compose.json"
+  },
+  {
+    "name": "Emby",
+    "description": "Emby(https://emby.media/) organizes video, music, live TV, and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone emby Media Server.",
+    "longDescription": "<p>Emby is an open-source media system that gives you the power to control the management and streaming of your media content. It offers an alternative to proprietary systems like Plex, empowering users to deliver media content from a dedicated server to various end-user devices through a range of apps.</p><p>Key features of Emby include the ability to stream movies, TV shows, music, photos, videos, audiobooks, and podcasts. It also supports various technologies and platforms such as DLNA, Chromecast, Android, iOS, Roku, FireTV, SmartTV, Web browser and Kodi. Emby essentially functions as a comprehensive media browser, server, streaming system, player, center, manager, organizer, and library. In addition to these, it also facilitates media sharing, transcoding, and casting, offering a robust solution for your media needs.</p>",
+    "tags": [
+      "media",
+      "server",
+      "streaming",
+      "movies",
+      "tv",
+      "music",
+      "photos",
+      "videos",
+      "audiobooks",
+      "podcasts",
+      "dlna",
+      "chromecast",
+      "android",
+      "ios",
+      "roku",
+      "firetv",
+      "smarttv",
+      "web",
+      "browser",
+      "kodi",
+      "emby",
+      "plex",
+      "media browser",
+      "media server",
+      "media streaming",
+      "media player",
+      "media center",
+      "media management",
+      "media organizer",
+      "media collection",
+      "media library",
+      "media manager",
+      "media sharing",
+      "media transcoding",
+      "media casting",
+      "media casting",
+      "media casting"
+    ],
+    "repository": "https://github.com/linuxserver/docker-emby",
+    "image": "https://hub.docker.com/r/linuxserver/emby",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Emby",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Emby/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Emby/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Emby/screenshots/3.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Emby/screenshots/4.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Emby/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Emby/cosmos-compose.json"
+  },
+  {
+    "name": "Emulator-JS",
+    "longDescription": "<p>Emulator-JS is an open-source, in-browser multi-system emulator. It leverages JavaScript to emulate a wide range of gaming consoles, creating a convenient, accessible, and platform-agnostic gaming experience.</p><p>Key features of Emulator-JS include compatibility with multiple console systems, an intuitive ROM management system, and the ability to save game states. Because it's browser-based, Emulator-JS eliminates the need for complex installations or system-specific emulators.</p><p>As Emulator-JS runs directly in the browser, it can be used on any platform that supports a modern web browser, including Windows, Linux, MacOS, and even mobile devices. This makes it highly versatile for users across different environments.</p>",
+    "description": "Emulator-JS is an open-source, in-browser multi-system emulator. It allows users to play games from various console systems directly in the browser, facilitated by an intuitive ROM management system. Emulator-JS can be used on any platform that supports a modern web browser, such as Windows, Linux, MacOS, and mobile devices.",
+    "tags": [
+      "gaming",
+      "emulation",
+      "web",
+      "open-source",
+      "cross-platform",
+      "emulator",
+      "in-browser",
+      "gaming",
+      "rom management",
+      "javascript",
+      "windows",
+      "linux",
+      "macos",
+      "mobile"
+    ],
+    "repository": "https://github.com/EmulatorJS/EmulatorJS",
+    "image": "https://hub.docker.com/r/linuxserver/emulatorjs",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Emulator-JS",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Emulator-JS/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Emulator-JS/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Emulator-JS/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Emulator-JS/cosmos-compose.json"
+  },
+  {
+    "name": "Fasten Health",
+    "longDescription": "<p>Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 100,000's of insurance companies, healthcare providers and laboratories. It securely connects patient healthcare providers together, creating a personal health record that never leaves the patient's hands without their consent.</p><p><b>This project is still in early stages. Expect non-functional features</b></p>",
+    "description": "An open-source, self-hosted, personal/family electronic medical record aggregator (PHR), designed to integrate with 100,000's of insurances/hospitals & clinics.",
+    "tags": [
+      "health",
+      "erm",
+      "insurance",
+      "healthcare",
+      "medical records"
+    ],
+    "repository": "https://github.com/fastenhealth/fasten-onprem",
+    "image": "ghcr.io/fastenhealth/fasten-onprem",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Fasten",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Fasten/screenshots/fasten_dashboard.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Fasten/screenshots/fasten_main.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Fasten/screenshots/fasten_sources.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Fasten/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Fasten/cosmos-compose.json"
+  },
+  {
+    "name": "Filebrowser",
+    "longDescription": "<p>Filebrowser is an open-source, self-hosted web application for managing files within your server's file system. The application provides a user-friendly interface, making it simple to navigate, upload, download, and manage your files.</p><p>Key features of Filebrowser include support for custom commands, user and permissions management, shareable links, and a built-in text editor. It also supports various media file previews, including video and image file formats.</p><p>Filebrowser is designed to run on any platform that supports Go, including various Linux distributions, Windows, and MacOS. Additionally, it can be easily deployed using Docker.</p>",
+    "description": "Filebrowser is an open-source, self-hosted web application for managing files within your server. It offers features like custom commands, user and permissions management, shareable links, built-in text editor, and media file previews. Filebrowser can be run on any platform that supports Go, including various Linux distributions, Windows, MacOS, and Docker.",
+    "tags": [
+      "filebrowser",
+      "open-source",
+      "self-hosted",
+      "file management",
+      "custom commands",
+      "permissions management",
+      "shareable links",
+      "text editor",
+      "media previews",
+      "go",
+      "linux",
+      "windows",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/filebrowser/filebrowser",
+    "image": "https://hub.docker.com/r/filebrowser/filebrowser",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Filebrowser",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Filebrowser/screenshots/1.gif"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Filebrowser/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Filebrowser/cosmos-compose.json"
+  },
+  {
+    "name": "Firefly III",
+    "description": "A free and open source personal finance manager",
+    "longDescription": "<p>Firefly III is a (self-hosted) manager for your personal finances. It can help you keep track of your expenses and income, so you can spend less and save more. Firefly III supports the use of budgets, categories and tags. Using a bunch of external tools, you can import data. It also has many neat financial reports available.</p>",
+    "tags": [
+      "money",
+      "personal-finance",
+      "finance",
+      "credit-card",
+      "budgeting",
+      "cash-flow",
+      "budget",
+      "expenses",
+      "paycheck"
+    ],
+    "repository": "https://github.com/firefly-iii/firefly-iii",
+    "image": "https://hub.docker.com/r/fireflyiii/core",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Firefly-III",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Firefly-III/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Firefly-III/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Firefly-III/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Firefly-III/cosmos-compose.json"
+  },
+  {
+    "name": "Firefox",
+    "longDescription": "<p>Firefox, developed by Mozilla Foundation, is a leading open-source web browser known for its emphasis on privacy, security, and speed. It offers a user-friendly experience with extensive customization options, including a vast library of add-ons and themes.</p><p>Firefox is designed with advanced security features like Enhanced Tracking Protection to automatically block many trackers, safeguarding user data. Its efficient performance and developer-friendly tools make it a top choice for both general users and web developers. Firefox Sync allows seamless access to bookmarks, history, and tabs across devices.</p><p>Available on multiple platforms, including Windows, MacOS, Linux, Android, and iOS, Firefox is committed to empowering users with a fast, secure, and private browsing experience.</p>",
+    "description": "Firefox is a feature-rich web browser focusing on user privacy and security. It provides a customizable user interface, a wide range of extensions, sync capabilities, and efficient performance. Firefox is designed for various platforms and is dedicated to promoting an open and accessible internet.",
+    "tags": [
+      "web browser",
+      "privacy",
+      "security",
+      "mozilla",
+      "firefox",
+      "open source",
+      "extensions",
+      "cross-platform",
+      "sync",
+      "user-friendly",
+      "performance",
+      "developer tools"
+    ],
+    "repository": "https://github.com/mozilla/firefox",
+    "image": "https://hub.docker.com/r/linuxserver/firefox",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Firefox",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Firefox/screenshots/1.webp"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Firefox/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Firefox/cosmos-compose.json"
+  },
+  {
+    "name": "Flarum",
+    "longDescription": "Flarum is an open-source forum software designed to be simple, fast, and easy to use. It provides a modern and responsive user interface, making discussions and interactions within a community more engaging. Flarum is built using PHP and the Laravel framework, and it uses the Mithril JavaScript framework for its front-end.",
+    "description": "Flarum is a modern and responsive open-source forum software written in PHP and Laravel.",
+    "tags": [
+      "forum software",
+      "open-source",
+      "PHP",
+      "community",
+      "laravel"
+    ],
+    "repository": "https://github.com/mondediefr/docker-flarum",
+    "image": "https://hub.docker.com/r/mondedie/flarum",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Flarum",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Flarum/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Flarum/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Flarum/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Flarum/cosmos-compose.json"
+  },
+  {
+    "name": "FreshRSS",
+    "longDescription": "<p>FreshRSS is an open-source, self-hosted RSS feed aggregator. It is lightweight, easy to use, and packed with features. FreshRSS lets you collect, manage, and read your RSS feeds from your own server, offering a high degree of control and privacy.</p><p>Key features include a responsive design that works well on desktop and mobile devices, the ability to import/export OPML files, multiple themes, filters, categories, and multi-user support with the ability to manage user roles. Furthermore, it's extensible with plugins for additional functionalities.</p><p>FreshRSS is compatible with various platforms, including Windows, Linux, and MacOS, and it supports Docker, making it a highly versatile tool for various environments.</p>",
+    "description": "FreshRSS is an open-source, self-hosted RSS feed aggregator that is lightweight and easy to use. Features include a responsive design, import/export OPML files, multiple themes, filters, categories, multi-user support, and extensibility with plugins. FreshRSS is compatible with Windows, Linux, MacOS, and Docker.",
+    "tags": [
+      "RSS",
+      "feed aggregator",
+      "news",
+      "freshrss",
+      "open-source",
+      "self-hosted",
+      "responsive",
+      "OPML",
+      "multi-user",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/FreshRSS/FreshRSS",
+    "image": "https://hub.docker.com/r/linuxserver/freshrss",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "FreshRSS",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/FreshRSS/screenshots/1.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/FreshRSS/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/FreshRSS/cosmos-compose.json"
+  },
+  {
+    "name": "Frigate-NVR",
+    "longDescription": "Frigate-NVR is an open-source NVR (Network Video Recorder) designed for home automation and monitoring systems. It utilizes machine learning for object detection in surveillance footage. Frigate-NVR offers features like real-time alerts, customizable zones, and integrations with various camera systems. It is built to provide a flexible and customizable video surveillance solution for home users.",
+    "description": "Frigate-NVR is an open-source Network Video Recorder focusing on object detection for home automation and monitoring systems.",
+    "tags": [
+      "Frigate-NVR",
+      "NVR",
+      "surveillance",
+      "home automation",
+      "object detection"
+    ],
+    "repository": "https://github.com/blakeblackshear/frigate",
+    "image": "https://ghcr.io/blakeblackshear/frigate:stable",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Frigate-NVR",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Frigate-NVR/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Frigate-NVR/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Frigate-NVR/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Frigate-NVR/cosmos-compose.json"
+  },
+  {
+    "name": "Ghost",
+    "longDescription": "<p>Ghost is a powerful app for professional publishers to create, share, and grow a business around their content. It comes with modern tools to build a website, publish content, send newsletters & offer paid subscriptions to members.</p>",
+    "description": "Ghost is an open source, professional publishing platform built on a modern Node.js technology stack — designed for teams who need power, flexibility and performance",
+    "tags": [
+      "blog",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/bitnami/containers",
+    "image": "https://hub.docker.com/r/bitnami/ghost/",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Ghost",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ghost/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ghost/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ghost/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ghost/cosmos-compose.json"
+  },
+  {
+    "name": "Gitea",
+    "longDescription": "<p>Gitea is a lightweight, open-source Git platform that provides a self-hosted solution for managing repositories, collaborative code reviews, and issue tracking.</p><p>With Gitea, you can easily create and manage Git repositories, track changes, collaborate with team members, and streamline your software development workflow. It offers a simple and intuitive user interface, powerful access control, and a range of features such as code highlighting, pull requests, and issue management.</p><p>Gitea is written in Go and is designed to be lightweight, fast, and easy to deploy. It supports multiple authentication methods, including built-in user accounts, LDAP, and OAuth. Gitea also provides integrations with popular development tools and services.</p><p>Whether you're a small team or a large organization, Gitea provides a flexible and customizable platform for hosting your Git repositories and managing your software projects.</p>",
+    "description": "Gitea is a lightweight, open-source Git platform for self-hosted repository management, code collaboration, and issue tracking. It offers an intuitive interface, powerful access control, and integrations with popular development tools.",
+    "tags": [
+      "development",
+      "git",
+      "repository management",
+      "code collaboration",
+      "issue tracking",
+      "go",
+      "self-hosted",
+      "gitea"
+    ],
+    "repository": "https://github.com/go-gitea/gitea",
+    "image": "https://hub.docker.com/r/gitea/gitea",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Gitea",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Gitea/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Gitea/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Gitea/screenshots/3.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Gitea/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Gitea/cosmos-compose.json"
+  },
+  {
+    "name": "Grav",
+    "longDescription": "<p>Grav is an open-source, self-hosted, flat-file content management system (CMS). Unlike traditional CMS platforms, Grav does not use a database to store content, making it incredibly lightweight and easy to manage.</p><p>Key features of Grav include powerful content filtering, multi-language support, flexible templating with Twig, and simple content creation process with Markdown. Its extendibility with a rich ecosystem of plugins and themes, plus a strong focus on performance, makes Grav a versatile platform for creating all kinds of websites.</p><p>Grav is compatible with various platforms, including Windows, Linux, MacOS, and it supports Docker, making it a highly versatile tool for various environments.</p>",
+    "description": "Grav is an open-source, self-hosted, flat-file content management system (CMS). It offers features like content filtering, multi-language support, flexible templating with Twig, and simple content creation with Markdown. Grav can be extended with plugins and themes. It can be run on Windows, Linux, MacOS, and Docker.",
+    "tags": [
+      "web",
+      "blog",
+      "code",
+      "open-source",
+      "self-hosted",
+      "CMS",
+      "flat-file",
+      "content management",
+      "twig",
+      "markdown",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/getgrav/grav",
+    "image": "https://hub.docker.com/r/getgrav/grav",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Grav",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Grav/screenshots/1.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Grav/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Grav/cosmos-compose.json"
+  },
+  {
+    "name": "Grocy",
+    "longDescription": "<p>Grocy is a self-hosted, open-source grocery management solution designed to help users manage their groceries. It provides a suite of tools for managing shopping lists, recipes, inventory, and chores.</p><p>Key features include stock management with a barcode scanner, recipe management, household chore management, and tracking of purchased items with expiration dates. Grocy helps users to avoid waste by providing reminders about due dates of perishable items.</p><p>Grocy is compatible with various platforms, including Windows, Linux, MacOS, and it supports Docker, making it a highly versatile tool for various environments.</p>",
+    "description": "Grocy is a self-hosted, open-source grocery management solution offering features like stock management with a barcode scanner, recipe management, household chore management, and tracking of purchased items with expiration dates. Grocy is compatible with Windows, Linux, MacOS, and Docker.",
+    "tags": [
+      "life",
+      "groceries",
+      "list",
+      "open-source",
+      "self-hosted",
+      "grocery",
+      "management",
+      "shopping list",
+      "inventory",
+      "recipes",
+      "chores",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/grocy/grocy",
+    "image": "https://hub.docker.com/r/linuxserver/grocy",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Grocy",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Grocy/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Grocy/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Grocy/cosmos-compose.json"
+  },
+  {
+    "name": "Handbrake",
+    "longDescription": "<p>This project implements a Docker container for <a href=https://handbrake.fr/ target=_blank>HandBrake</a>.</p><p>The GUI of the application is accessed through a modern web browser (no installation or configuration needed on the client side) or via any VNC client.</p><p>A fully automated mode is also available: drop files into a watch folder and let HandBrake process them without any user interaction.</p><p>Full documentation is available at <a href=https://github.com/jlesage/docker-handbrake target=_blank>https://github.com/jlesage/docker-handbrake</a>.</p>",
+    "description": "HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.",
+    "tags": [
+      "media",
+      "video",
+      "conversion"
+    ],
+    "repository": "https://github.com/jlesage/docker-handbrake",
+    "image": "https://hub.docker.com/r/jlesage/handbrake",
+    "supported_architectures": [
+      "amd64"
+    ],
+    "id": "Handbrake",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Handbrake/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Handbrake/screenshots/2.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Handbrake/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Handbrake/cosmos-compose.json"
+  },
+  {
+    "name": "Heimdall",
+    "longDescription": "<p>Heimdall is an open-source, self-hosted dashboard software that allows you to organize and access your web-based applications and services all in one place. It's designed to provide a central hub to simplify your web environment.</p><p>Key features of Heimdall include the ability to add applications via a built-in library or by creating custom application definitions, custom themes, and the capacity to run on a desktop or mobile browser. It supports multiple users and each user can have their own personalized set of applications.</p><p>Heimdall is compatible with various platforms, including Windows, Linux, MacOS, and it supports Docker, making it a highly versatile tool for various environments.</p>",
+    "description": "Heimdall is an open-source, self-hosted dashboard software that provides a central hub for web-based applications and services. Features include a built-in application library, custom themes, multi-user support, and compatibility with desktop and mobile browsers. Heimdall is compatible with Windows, Linux, MacOS, and Docker.",
+    "tags": [
+      "dashboard",
+      "home",
+      "icons",
+      "open-source",
+      "self-hosted",
+      "web-based applications",
+      "services",
+      "central hub",
+      "multi-user",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/linuxserver/Heimdall",
+    "image": "https://hub.docker.com/r/linuxserver/heimdall",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Heimdall",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Heimdall/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Heimdall/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Heimdall/screenshots/3.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Heimdall/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Heimdall/cosmos-compose.json"
+  },
+  {
+    "name": "Homarr",
+    "longDescription": "<p>Homarr is an open-source, self-hosted dashboard software that allows you to organize and access your web-based applications and services all in one place. It's designed to provide a central hub to simplify your web environment.</p><p>Key features of Homarr include the ability to add applications via a built-in library or by creating custom application definitions, custom themes, and the capacity to run on a desktop or mobile browser. It supports multiple users and each user can have their own personalized set of applications.</p><p>Homarr is compatible with various platforms, including Windows, Linux, MacOS, and it supports Docker, making it a highly versatile tool for various environments.</p>",
+    "description": "Homarr is an open-source, self-hosted dashboard software that provides a central hub for web-based applications and services. Features include a built-in application library, custom themes, multi-user support, and compatibility with desktop and mobile browsers. Homarr is compatible with Windows, Linux, MacOS, and Docker.",
+    "tags": [
+      "dashboard",
+      "home",
+      "icons",
+      "open-source",
+      "self-hosted",
+      "web-based applications",
+      "services",
+      "central hub",
+      "multi-user",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/ajnart/homarr",
+    "image": "https://hub.docker.com/r/homarr",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Homarr",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Homarr/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Homarr/screenshots/2.webp"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Homarr/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Homarr/cosmos-compose.json"
+  },
+  {
+    "name": "Home Assistant",
+    "longDescription": "<p>Home Assistant is an open-source home automation platform focused on privacy and local control. It allows you to control all your devices from a single, unified interface. It is powered by a worldwide community of tinkerers and DIY enthusiasts, perfect to run on a Raspberry Pi or a local server.</p><p>Home Assistant integrates with a large number of different devices and services, providing the user with a powerful and flexible home automation control center. In addition to its powerful, flexible features, it provides advanced automation capabilities to help make your life easier.</p><p>With support for a vast array of devices and services, Home Assistant can be the one-stop solution for all your home automation needs. Get started with Home Assistant today and take control of your home automation!</p>",
+    "description": "Home Assistant is an open-source home automation platform that focuses on privacy and local control. It allows you to control all your devices from a single interface, integrating with a large number of devices and services. Home Assistant offers advanced automation capabilities, running perfectly on a Raspberry Pi or a local server. Start using Home Assistant today for a comprehensive home automation solution.",
+    "tags": [
+      "smart home",
+      "home automation",
+      "IoT",
+      "Raspberry Pi",
+      "local server",
+      "privacy",
+      "control",
+      "automation",
+      "devices",
+      "services",
+      "home assistant"
+    ],
+    "repository": "https://github.com/home-assistant/core",
+    "image": "https://hub.docker.com/r/homeassistant/home-assistant",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "HomeAssistant",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/HomeAssistant/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/HomeAssistant/screenshots/2.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/HomeAssistant/screenshots/3.png"
+    ],
+    "artefacts": {
+      "configuration.yaml": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/HomeAssistant/artefacts/configuration.yaml"
+    },
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/HomeAssistant/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/HomeAssistant/cosmos-compose.json"
+  },
+  {
+    "name": "Homebox",
+    "longDescription": "<p>Homebox is the inventory and organization system built for the Home User! With a focus on simplicity and ease of use, Homebox is the perfect solution for your home inventory, organization, and management needs.</p>",
+    "description": "Homebox is the inventory and organization system built for the Home User.",
+    "tags": [
+      "home",
+      "homebox",
+      "organization",
+      "inventory",
+      "management",
+      "docker",
+      "linux"
+    ],
+    "repository": "https://github.com/hay-kot/homebox",
+    "image": "https://ghcr.io/hay-kot/homebox:latest",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Homebox",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Homebox/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Homebox/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Homebox/screenshots/3.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Homebox/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Homebox/cosmos-compose.json"
+  },
+  {
+    "name": "Homepage",
+    "longDescription": "<p>A modern, fully static, fast, secure fully proxied, highly customizable application dashboard with integrations for over 100 services and translations into multiple languages. Easily configured via YAML files or through docker label discovery..</p><p>Heimdall is compatible with various platforms, including Windows, Linux, MacOS, and it supports Docker, making it a highly versatile tool for various environments.</p>",
+    "description": "A highly customizable application dashboard with integrations for over 100 services and translations into multiple languages.",
+    "tags": [
+      "dashboard",
+      "home",
+      "icons",
+      "open-source",
+      "self-hosted",
+      "web-based applications",
+      "services",
+      "central hub",
+      "multi-user",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/gethomepage/homepage",
+    "image": "https://github.com/gethomepage/homepage/pkgs/container/homepage",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Homepage",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Homepage/screenshots/1.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Homepage/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Homepage/cosmos-compose.json"
+  },
+  {
+    "name": "IT-Tools",
+    "description": "Collection of handy online tools for developers, with great UX.",
+    "longDescription": "<p>IT Tools is a free and open-source collection of handy online tools for developers & people working in IT. It includes a token generator, case converter, base converter QR code generator, Git cheatsheet, lorem ipsum generator,.. and many more !</p>",
+    "tags": [
+      "productivity",
+      "tools",
+      "developer-tools",
+      "it",
+      "collection"
+    ],
+    "repository": "https://github.com/CorentinTh/it-tools",
+    "image": "https://hub.docker.com/r/corentinth/it-tools",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "IT-Tools",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/IT-Tools/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/IT-Tools/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/IT-Tools/screenshots/3.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/IT-Tools/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/IT-Tools/cosmos-compose.json"
+  },
+  {
+    "name": "Immich",
+    "longDescription": "<p>Immich is an open-source personal photo management tool that makes use of the latest technologies to provide an easy and intuitive way to keep your photos organized. It provides a web-based platform to browse, organize, and share your personal photo collection.</p><p>With features like smart search, automated tagging, and geolocation, Immich makes it easy to find and group your photos. It supports various image formats and RAW files from high-quality cameras. Immich can also automatically generate thumbnails and convert RAW images.</p><p>Available for Windows, Linux, MacOS, and other platforms, Immich offers a private, self-hosted solution for your photo management needs. Start using Immich today to take control of your photo collection!</p>",
+    "description": "Immich - High performance self-hosted photo and video backup solution",
+    "tags": [
+      "photo management",
+      "image organizer",
+      "smart search",
+      "automated tagging",
+      "geolocation",
+      "thumbnails",
+      "RAW images",
+      "self-hosted",
+      "windows",
+      "linux",
+      "macos",
+      "Immich"
+    ],
+    "repository": "https://github.com/immich-app/immich",
+    "image": "ghcr.io/immich-app/immich-server",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Immich",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Immich/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Immich/screenshots/2.webp",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Immich/screenshots/3.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Immich/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Immich/cosmos-compose.json"
+  },
+  {
+    "name": "Jellyfin",
+    "description": "Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Plex, to provide media from a dedicated server to end-user devices via multiple apps.",
+    "longDescription": "<p>Jellyfin is an open-source media system that gives you the power to control the management and streaming of your media content. It offers an alternative to proprietary systems like Plex, empowering users to deliver media content from a dedicated server to various end-user devices through a range of apps.</p><p>Key features of Jellyfin include the ability to stream movies, TV shows, music, photos, videos, audiobooks, and podcasts. It also supports various technologies and platforms such as DLNA, Chromecast, Android, iOS, Roku, FireTV, SmartTV, Web browser, Kodi, and Emby. Jellyfin essentially functions as a comprehensive media browser, server, streaming system, player, center, manager, organizer, and library. In addition to these, it also facilitates media sharing, transcoding, and casting, offering a robust solution for your media needs.</p>",
+    "tags": [
+      "media",
+      "server",
+      "streaming",
+      "movies",
+      "tv",
+      "music",
+      "photos",
+      "videos",
+      "audiobooks",
+      "podcasts",
+      "dlna",
+      "chromecast",
+      "android",
+      "ios",
+      "roku",
+      "firetv",
+      "smarttv",
+      "web",
+      "browser",
+      "kodi",
+      "emby",
+      "plex",
+      "media browser",
+      "media server",
+      "media streaming",
+      "media player",
+      "media center",
+      "media management",
+      "media organizer",
+      "media collection",
+      "media library",
+      "media manager",
+      "media sharing",
+      "media transcoding",
+      "media casting",
+      "media casting",
+      "media casting"
+    ],
+    "repository": "https://github.com/jellyfin/jellyfin",
+    "image": "https://hub.docker.com/r/linuxserver/jellyfin",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Jellyfin",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellyfin/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellyfin/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellyfin/screenshots/3.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellyfin/screenshots/4.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellyfin/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellyfin/cosmos-compose.json"
+  },
+  {
+    "name": "Jellyseerr",
+    "description": "Jellyseerr is a free and open source software application for managing requests for your media library. It is a a fork of Overseerr built to bring support for Jellyfin & Emby media servers!",
+    "longDescription": "<p>Jellyseerr is a free and open source software application for managing requests for your media library. It is a a fork of Overseerr built to bring support for Jellyfin & Emby media servers!</p>",
+    "tags": [
+      "media",
+      "request",
+      "library",
+      "open-source",
+      "self-hosted",
+      "web application",
+      "plex",
+      "emby",
+      "jellyfin",
+      "request system",
+      "media content",
+      "windows",
+      "linux",
+      "macos",
+      "docker",
+      "radarr",
+      "sonarr"
+    ],
+    "repository": "https://github.com/Fallenbagel/jellyseerr",
+    "image": "https://hub.docker.com/r/fallenbagel/jellyseerr",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Jellyseerr",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellyseerr/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellyseerr/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellyseerr/screenshots/3.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellyseerr/screenshots/4.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellyseerr/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellyseerr/cosmos-compose.json"
+  },
+  {
+    "name": "Jellystat",
+    "description": "Jellystat is a free and open source Statistics App for Jellyfin! (This project is still in development - expect some weirdness)",
+    "longDescription": "<p>Think of Jellystat as a Jellyfin version of Tautulli for Plex</p>",
+    "tags": [
+      "media",
+      "stats",
+      "library",
+      "open-source",
+      "self-hosted",
+      "web application",
+      "jellyfin",
+      "media content",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/CyferShepard/Jellystat",
+    "image": "https://hub.docker.com/r/cyfershepard/jellystat",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Jellystat",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellystat/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellystat/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellystat/screenshots/3.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellystat/screenshots/4.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellystat/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jellystat/cosmos-compose.json"
+  },
+  {
+    "name": "Jenkins",
+    "longDescription": "<p>Jenkins is typically run as a standalone application in its own process. The Jenkins WAR file bundles Winstone, a Jetty servlet container wrapper, and can be started on any operating system or platform with a version of Java supported by Jenkins.</p>",
+    "description": "Jenkins an open source automation server which enables developers around the world to reliably build, test, and deploy their software.",
+    "tags": [
+      "development",
+      "git",
+      "repository management",
+      "code collaboration",
+      "issue tracking",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/bitnami/containers/",
+    "image": "https://hub.docker.com/r/bitnami/jenkins",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Jenkins",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jenkins/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jenkins/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jenkins/screenshots/2.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jenkins/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Jenkins/cosmos-compose.json"
+  },
+  {
+    "name": "Joplin",
+    "longDescription": "<p>Joplin is a free and open-source note-taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified directly from the applications or from your own text editor. It also supports markdown, with inline previewing.</p><p>Joplin offers end-to-end encryption and can synchronize with various cloud platforms, making it a secure choice for your note-taking needs. With its API, Joplin can be extended with plugins for custom functionality, further tailoring your note management experience.</p><p>Available for Windows, Linux, MacOS, iOS, and Android, Joplin is flexible to fit a variety of environments and workflows. Start using Joplin today to organize your thoughts and tasks in a secure and efficient manner!</p>",
+    "description": "Joplin is a free, open-source note-taking and to-do application that supports markdown and end-to-end encryption. It offers capabilities such as tagging, searching, and modifying notes, and can sync with various cloud platforms. It features an extensible plugin system, allowing for tailored functionality. Joplin is compatible across multiple platforms including Windows, Linux, MacOS, iOS, and Android.",
+    "tags": [
+      "productivity",
+      "note-taking",
+      "to-do",
+      "markdown",
+      "encryption",
+      "syncing",
+      "windows",
+      "linux",
+      "macos",
+      "ios",
+      "android",
+      "self-hosted",
+      "joplin"
+    ],
+    "repository": "https://github.com/laurent22/joplin",
+    "image": "https://hub.docker.com/r/joplin/server",
+    "supported_architectures": [
+      "amd64"
+    ],
+    "id": "Joplin",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Joplin/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Joplin/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Joplin/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Joplin/cosmos-compose.json"
+  },
+  {
+    "name": "Kavita",
+    "description": "Digital library which supports a vast array of file formats. Install to start reading and share your server with your friends.",
+    "longDescription": "<p>Kavita is a full-fledged, fast, cross-platform, & open-source manga, comic, and book server. Built from the ground up with a focus on manga and a goal of being a full solution to your reading needs. Set up your own server and share your manga, comics, and e-book collection with your friends and family.</p>",
+    "tags": [
+      "media",
+      "server",
+      "books",
+      "ebooks",
+      "android",
+      "ios",
+      "web",
+      "browser",
+      "media management",
+      "media organizer",
+      "media collection",
+      "media library",
+      "media manager"
+    ],
+    "repository": "https://github.com/linuxserver/docker-kavita",
+    "image": "https://hub.docker.com/r/linuxserver/kavita",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Kavita",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kavita/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kavita/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kavita/screenshots/3.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kavita/screenshots/4.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kavita/screenshots/5.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kavita/screenshots/6.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kavita/screenshots/7.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kavita/screenshots/8.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kavita/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kavita/cosmos-compose.json"
+  },
+  {
+    "name": "Keycloak",
+    "longDescription": "<p>Keycloak is an open source software product to allow single sign-on with identity and access management aimed at modern applications and services. As of March 2018 this WildFly community project is under the stewardship of Red Hat who use it as the upstream project for their RH-SSO product.</p>",
+    "description": "Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services.",
+    "tags": [
+      "sso",
+      "management",
+      "Identity",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/bitnami/containers/",
+    "image": "https://hub.docker.com/r/bitnami/Keycloak",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Keycloak",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Keycloak/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Keycloak/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Keycloak/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Keycloak/cosmos-compose.json"
+  },
+  {
+    "name": "KitchenOwl",
+    "longDescription": "<p>KitchenOwl is a smart grocery list and recipe manager.</p><p>Easily add items to your shopping list before you go shopping. You can also create recipes and get suggestions on what you want to cook.</p><p>Track your expenses so you know how much you've spent.</p>",
+    "description": "KitchenOwl helps you organize your grocery life.",
+    "tags": [
+      "recipes",
+      "meals",
+      "shopping",
+      "planning",
+      "expenses",
+      "docker"
+    ],
+    "repository": "https://github.com/tombursch/kitchenowl",
+    "image": "https://hub.docker.com/r/tombursch/kitchenowl",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Kitchenowl",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kitchenowl/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kitchenowl/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kitchenowl/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Kitchenowl/cosmos-compose.json"
+  },
+  {
+    "name": "LSDVR",
+    "description": "Automatic VOD recording",
+    "longDescription": "Automatic VOD recording around when the stream goes live, instead of checking it every minute like many other scripts do. Because of notification delays, the stream usually starts capturing after ~2 minutes after the stream goes live. Cyclic recording, as in when a specified amount or storage per streamer is reached, the oldest stream gets deleted. Tons of metadata, maybe too much. Stores info about games played, stream titles, duration, if the stream got muted from copyrighted music, etc. Viewer count logging with graphs. Chapters (titles and games) are written to the final video file. <a href='https://github.com/MrBrax/twitch-vod-chat'>Video player</a> with chat playback. Video cutter with chapter display for easy exporting, also cuts the downloaded chat for synced rendering. Notifications with optional speech when the website is open, get stream live notifications far earlier than the mobile app does. Writes a <a href='https://github.com/mifi/lossless-cut/'>losslesscut</a> compatible csv file for the full VOD, so you don't have to find all the games. Uses `ts` instead of `mp4` so if the stream or program crashes, the file won't be corrupted. Audio only support. Optionally either dumps chat while capturing or downloads the chat file after it's done. Basic tools for downloading any VOD, chat, or clip. Can be set to automatically download the whole stream chat to a JSON file, to be used in my <a href='https://github.com/MrBrax/twitch-vod-chat'>twitch-vod-chat</a> webapp or automatically burned in with <a href='https://github.com/lay295/TwitchDownloader'>TwitchDownloader</a>. Basic webhook support for external scripting. Notifications over the browser, telegram, pushover, and discord. Mobile friendly site with PWA. Exporting of videos to external file, SFTP, and YouTube. Can be enabled for all finished captures Can be run for an entire channel at once</p>",
+    "tags": [
+      "twitch",
+      "youtube",
+      "download",
+      "videos",
+      "vod",
+      "media"
+    ],
+    "repository": "https://github.com/alexta69/metube",
+    "image": "https://github.com/alexta69/metube/pkgs/container/metube",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "LSDVR",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/LSDVR/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/LSDVR/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/LSDVR/cosmos-compose.json"
+  },
+  {
+    "name": "Lemmy",
+    "longDescription": "<p>Lemmy is an open-source, self-hosted, federated link aggregator application similar to Reddit, which allows users to create their own communities and share links and posts with others.</p><p>Key features of Lemmy include its ability to form federated link-aggregator communities, moderation tools, and the ability to vote on content. It also supports commenting and private messaging between users. Lemmy is designed to consume minimal resources and can be easily self-hosted on small servers.</p><p>Lemmy is compatible with various platforms, including Windows, Linux, MacOS, and it supports Docker, making it a highly versatile tool for various environments.</p>",
+    "description": "Lemmy is an open-source, self-hosted, federated link aggregator similar to Reddit. It offers community formation, moderation tools, content voting, and supports commenting and private messaging between users. Lemmy can be run on Windows, Linux, MacOS, and Docker.",
+    "tags": [
+      "social",
+      "federation",
+      "reddit",
+      "open-source",
+      "self-hosted",
+      "federated",
+      "link aggregator",
+      "community",
+      "moderation",
+      "content voting",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/LemmyNet/lemmy",
+    "image": "https://hub.docker.com/r/dessalines/lemmy",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Lemmy",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lemmy/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lemmy/screenshots/2.webp"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lemmy/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lemmy/cosmos-compose.json"
+  },
+  {
+    "name": "Lidarr",
+    "longDescription": "<p>Lidarr is an automated music collection manager that can find, add, and manage music in your collection. With Lidarr, you can automatically search for new albums and singles from your favorite artists, and automatically download them to your media server. It is integrated with popular download clients and supports multiple music databases for metadata fetching.</p><p>Lidarr is a perfect solution for those who want to automate their music downloading and organization process. It is available for various platforms including Windows, Linux, and MacOS, and has a mobile-friendly web interface that works across different devices.</p><p>Setting up Lidarr is straightforward. Whether you are an audiophile with a large collection or someone who just loves listening to music, Lidarr can transform your music management experience!</p>",
+    "description": "Lidarr is an automated music manager for maintaining your music library. It does this by finding and automatically downloading your desired music tracks. It integrates with popular download clients and supports metadata fetching from multiple music databases. With Lidarr, your music downloading and organization process can be streamlined and automated. It supports various platforms and has a mobile-friendly web interface for easy access. Get started with Lidarr now and enhance your music management experience!",
+    "tags": [
+      "download",
+      "torrent",
+      "music",
+      "usenet",
+      "automation",
+      "manager",
+      "media",
+      "collection",
+      "download",
+      "metadata",
+      "windows",
+      "linux",
+      "macos",
+      "web interface",
+      "streaming",
+      "music library",
+      "music database",
+      "music management",
+      "music collection",
+      "lidarr"
+    ],
+    "repository": "https://github.com/lidarr/Lidarr",
+    "image": "https://hub.docker.com/r/linuxserver/lidarr",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Lidarr",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lidarr/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lidarr/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lidarr/screenshots/3.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lidarr/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lidarr/cosmos-compose.json"
+  },
+  {
+    "name": "MKVToolNix",
+    "longDescription": "<p>This project implements a Docker container for MKVToolNix.</p><p>The GUI of the application is accessed through a modern web browser (no installation or configuration needed on the client side) or via any VNC client.</p>",
+    "description": "MKVToolNix is a set of tools to create, alter and inspect Matroska files.",
+    "tags": [
+      "media",
+      "video",
+      "conversion"
+    ],
+    "repository": "https://github.com/jlesage/docker-mkvtoolnix",
+    "image": "https://hub.docker.com/r/jlesage/mkvtoolnix",
+    "supported_architectures": [
+      "amd64"
+    ],
+    "id": "MKVToolNix",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/MKVToolNix/screenshots/1.jpeg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/MKVToolNix/screenshots/2.jpeg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/MKVToolNix/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/MKVToolNix/cosmos-compose.json"
+  },
+  {
+    "name": "Manyfold",
+    "longDescription": "<p>Manyfold is a Digital Asset Manager, specifically designed for 3D print files. Create a library pointing at your files on disk, and it will scan for models and parts. It assumes that any folders containing STL or OBJ files are models, and the files within them are parts. You can then view the files easily through your browser!</p>",
+    "description": "A self-hosted digital asset manager for 3d print files",
+    "tags": [
+      "3d models",
+      "3d printing"
+    ],
+    "repository": "https://github.com/manyfold3d/manyfold",
+    "image": "ghcr.io/manyfold3d/manyfold",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Manyfold",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Manyfold/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Manyfold/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Manyfold/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Manyfold/cosmos-compose.json"
+  },
+  {
+    "name": "Mastodon",
+    "longDescription": "<p>Mastodon is a free and open-source self-hosted social networking service. It allows anyone to host their own server node in the network, while interacting with other users in a federated manner. It is similar to Twitter, but is distinguished by its decentralization and ability for users to host their own servers, and its character limit of 500 as opposed to Twitter's 280.</p><p>Key features of Mastodon include the ability to build your own community, granular, per-post privacy settings, and anti-abuse tools. It supports a rich variety of multimedia attachments in posts, and you can also choose to use content warnings on your posts for viewer discretion.</p><p>Mastodon can be run on any platform that supports Ruby, Node.js, and PostgreSQL, including various Linux distributions and Docker.</p>",
+    "description": "Mastodon is a free and open-source self-hosted social networking service. It features decentralization, ability to build your own community, per-post privacy settings, anti-abuse tools, and supports multimedia attachments. Mastodon can be run on any platform that supports Ruby, Node.js, and PostgreSQL, including various Linux distributions and Docker.",
+    "tags": [
+      "social",
+      "federation",
+      "reddit",
+      "open-source",
+      "self-hosted",
+      "federated",
+      "link aggregator",
+      "community",
+      "moderation",
+      "content voting",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/tootsuite/mastodon",
+    "image": "https://hub.docker.com/r/tootsuite/mastodon",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Mastodon",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Mastodon/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Mastodon/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Mastodon/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Mastodon/cosmos-compose.json"
+  },
+  {
+    "name": "MeTube",
+    "description": "youtube-dl web UI",
+    "longDescription": "<p>Web GUI for youtube-dl (using the yt-dlp fork) with playlist support. Allows you to download videos from YouTube and dozens of other sites.</p>",
+    "tags": [
+      "youtube",
+      "youtube-dl",
+      "download",
+      "videos",
+      "music",
+      "media"
+    ],
+    "repository": "https://github.com/alexta69/metube",
+    "image": "https://github.com/alexta69/metube/pkgs/container/metube",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "MeTube",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/MeTube/screenshots/1.gif"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/MeTube/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/MeTube/cosmos-compose.json"
+  },
+  {
+    "name": "Mealie",
+    "longDescription": "<p>Mealie is an intuitive and easy to use recipe management app. It's designed to make your life easier by being the best recipes management experience on the web and providing you with an easy to use interface to manage your growing collection of recipes. </p><p>Default Password is: MyPassword</p>",
+    "description": "Recipe Management For The Modern Household",
+    "tags": [
+      "recipes",
+      "meals",
+      "shopping",
+      "planning",
+      "cookbook",
+      "docker",
+      "pwa"
+    ],
+    "repository": "https://github.com/mealie-recipes/mealie",
+    "image": "https://hub.docker.com/r/hkotel/mealie/",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Mealie",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Mealie/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Mealie/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Mealie/cosmos-compose.json"
+  },
+  {
+    "name": "MediaWiki",
+    "longDescription": "<p>MediaWiki is free and open-source wiki software originally developed by Magnus Manske for use on Wikipedia on January 25, 2002 and further improved by Lee Daniel Crocker, after which it has been coordinated by the Wikimedia Foundation.</p>",
+    "description": "The MediaWiki software is used by tens of thousands of websites and thousands of companies and organisations. It powers Wikipedia and also this website. MediaWiki helps you collect and organise knowledge and make it available to people.",
+    "tags": [
+      "wiki",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/bitnami/containers/",
+    "image": "https://hub.docker.com/r/bitnami/MediaWiki",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "MediaWiki",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/MediaWiki/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/MediaWiki/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/MediaWiki/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/MediaWiki/cosmos-compose.json"
+  },
+  {
+    "name": "Minecraft Bedrock Server",
+    "longDescription": "Minecraft Bedrock Server (Docker) is a containerized version of the Bedrock Dedicated Server, providing a selectable version and configurable environment variables for managing a Minecraft Bedrock server instance. It allows users to run a Bedrock Dedicated Server within a Docker container, offering features like version selection, environment variable configuration for server properties, and management through Docker Compose or Kubernetes.",
+    "description": "Minecraft Bedrock Server (Docker) allows easy deployment and management of a Bedrock Dedicated Server using Docker containers.",
+    "tags": [
+      "minecraft",
+      "bedrock",
+      "server",
+      "docker",
+      "containerization"
+    ],
+    "repository": "https://github.com/itzg/docker-minecraft-bedrock-server/tree/master",
+    "image": "https://hub.docker.com/r/itzg/minecraft-bedrock-server",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Minecraft-Bedrock-Server",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Minecraft-Bedrock-Server/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Minecraft-Bedrock-Server/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Minecraft-Bedrock-Server/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Minecraft-Bedrock-Server/cosmos-compose.json"
+  },
+  {
+    "name": "Minecraft",
+    "longDescription": "<p>Minecraft is a highly popular and critically acclaimed sandbox video game developed by Mojang Studios. It allows players to explore a blocky, procedurally generated 3D world with virtually infinite terrain, and may discover and extract raw materials, craft tools and items, build structures, and interact with the game's various entities.</p><p>Gameplay involves players interacting with the game world by placing and breaking various types of blocks in a three-dimensional environment. In this environment, players can build creative structures, creations, and artwork on multiplayer servers and singleplayer worlds across multiple game modes. Minecraft supports a wide range of gameplay styles, including survival mode, creative mode, adventure mode, and spectator mode.</p><p>Minecraft is available on multiple platforms, including Windows, MacOS, Linux, and various consoles and mobile devices.</p>",
+    "description": "Minecraft is a sandbox video game developed by Mojang Studios that allows players to explore, interact with, and modify a dynamically-generated map made of blocks. Players can build structures, craft items, and interact with the game world in a variety of ways. The game supports multiple gameplay styles and modes, and is available on a wide range of platforms.",
+    "tags": [
+      "game servers",
+      "mojang",
+      "sandbox",
+      "game",
+      "procedurally generated",
+      "3D",
+      "multiplayer",
+      "singleplayer",
+      "survival",
+      "creative",
+      "adventure",
+      "spectator",
+      "windows",
+      "macos",
+      "linux",
+      "console",
+      "mobile"
+    ],
+    "repository": "https://www.minecraft.net/",
+    "image": "https://www.minecraft.net/en-us/about-minecraft",
+    "supported_architectures": [
+      "x86",
+      "amd64",
+      "arm",
+      "arm64"
+    ],
+    "id": "Minecraft-Server",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Minecraft-Server/screenshots/1.webp"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Minecraft-Server/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Minecraft-Server/cosmos-compose.json"
+  },
+  {
+    "name": "Monica",
+    "longDescription": "<p>Can you remember the names of the children of all your friends? Can you remember the wedding anniversary of your brother? Can you tell the last time you called your grand mother and what you talked about? Monica lets you quickly and easily log all those information so you can be a better friend, family member or spouse.</p>",
+    "description": "Monica is a great open source personal relationship management system to organize the interactions with your loved ones..",
+    "tags": [
+      "crm",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/docker-library/docs/tree/master/monica/",
+    "image": "https://hub.docker.com/_/monica",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Monica",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Monica/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Monica/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Monica/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Monica/cosmos-compose.json"
+  },
+  {
+    "name": "Moodle",
+    "longDescription": "<p>Moodle is a free and open-source learning management system written in PHP and distributed under the GNU General Public License. Moodle is used for blended learning, distance education, flipped classroom and other online learning projects in schools, universities, workplaces and other sectors..</p>",
+    "description": "Moodle is a Learning Platform or course management system (CMS) - a free Open Source software package designed to help educators create effective online.",
+    "tags": [
+      "Learning",
+      "lms",
+      "Moodle LMS LMS",
+      "Moodle LMS",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/bitnami/containers",
+    "image": "https://hub.docker.com/r/bitnami/moodle",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Moodle",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Moodle/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Moodle/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Moodle/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Moodle/cosmos-compose.json"
+  },
+  {
+    "name": "N8n",
+    "longDescription": "<p>N8n is an extendable workflow automation tool. With a fair-code distribution model, n8n will always have visible source code, be available to self-host, and allow you to add your own custom functions, logic and apps. n8n's node-based approach makes it highly versatile, enabling you to connect anything to everything.</p>",
+    "description": "N8n (pronounced n-eight-n) helps you to connect any app with an API with any other, and manipulate its data with little or no code.",
+    "tags": [
+      "workflow",
+      "automation",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/n8n-io/n8n/",
+    "image": "https://docker.n8n.io/n8nio/n8n",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "N8n",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/N8n/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/N8n/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/N8n/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/N8n/cosmos-compose.json"
+  },
+  {
+    "name": "NZBGet",
+    "longDescription": "<p>NZBGet is a robust and lightweight Usenet downloader. It can download files from Usenet servers via NZB index files. The software is focused on performance and uses very little system resources, while achieving high download speeds.</p><p>NZBGet offers a variety of features including web-interface, API, automatic post-processing, RSS feed support, and more. It is also designed to work well on low powered devices like Raspberry Pi.</p><p>Available on multiple platforms including Windows, MacOS, Linux, and others, NZBGet is easy to set up and use. Start using NZBGet today for efficient Usenet downloading!</p>",
+    "description": "NZBGet is a high-performance Usenet downloader that uses NZB files to fetch content. It is designed to use minimal system resources while offering features such as a web-interface, API, automatic post-processing, and RSS feed support. NZBGet works well on various platforms including low powered devices. Start using NZBGet for your Usenet downloads today!",
+    "tags": [
+      "download",
+      "torrent",
+      "usenet",
+      "downloader",
+      "nzb",
+      "windows",
+      "linux",
+      "macos",
+      "raspberry pi",
+      "performance",
+      "rss feed",
+      "post-processing",
+      "nzbget"
+    ],
+    "repository": "https://github.com/nzbget/nzbget",
+    "image": "https://hub.docker.com/r/linuxserver/nzbget",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "NZBGet",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/NZBGet/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/NZBGet/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/NZBGet/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/NZBGet/cosmos-compose.json"
+  },
+  {
+    "name": "Navidrome",
+    "longDescription": "<p>Navidrome is an open-source music server and streamer that allows you to manage, listen to, and stream your music collection from anywhere. With Navidrome, you can organize your music library, create playlists, and access your favorite songs via a web interface.</p><p>Key features of Navidrome include a user-friendly web interface, support for various audio formats, album artwork display, and the ability to scrobble your music plays to Last.fm. It provides an excellent solution for music enthusiasts who want to have their music library at their fingertips.</p><p>Navidrome is cross-platform, making it accessible on Windows, Linux, and macOS. It's also available as a Docker container for easy deployment.</p>",
+    "description": "Navidrome is an open-source music server and streamer that lets you manage, listen to, and stream your music collection through a user-friendly web interface. It supports various audio formats and offers Last.fm scrobbling. Navidrome is cross-platform and available as a Docker container.",
+    "tags": [
+      "music server",
+      "music streamer",
+      "open-source",
+      "cross-platform",
+      "audio formats",
+      "Last.fm",
+      "web interface",
+      "music management",
+      "playlists",
+      "Docker",
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "repository": "https://github.com/deluan/navidrome",
+    "image": "https://hub.docker.com/r/deluan/navidrome",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Navidrome",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Navidrome/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Navidrome/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Navidrome/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Navidrome/cosmos-compose.json"
+  },
+  {
+    "name": "Nextcloud",
+    "longDescription": "<p>Nextcloud is a suite of client-server software for creating and using file hosting services. It is functionally similar to Dropbox, but is free and open-source, allowing users to install it on private servers.</p><p>Nextcloud provides an array of features including file sharing, syncing, end-to-end encryption, collaboration tools, and more. Its extensible app ecosystem allows you to set up your own cloud storage service to your exact needs. You can also integrate Nextcloud with many known IT infrastructure systems.</p><p>Available for Windows, Linux, MacOS, and other platforms, Nextcloud is designed to work in a variety of environments including both on premise and cloud setups. Start using Nextcloud today to control and secure your own private cloud storage!</p>",
+    "description": "Nextcloud is an open-source, self-hosted file share and collaboration platform, similar to Dropbox. It offers features such as file sharing, syncing, encryption, and collaboration tools. With its extensible app ecosystem, you can tailor your cloud storage service to your needs. Nextcloud is compatible with numerous platforms and can be integrated with many IT infrastructure systems.",
+    "tags": [
+      "storage",
+      "file sharing",
+      "syncing",
+      "encryption",
+      "collaboration",
+      "windows",
+      "linux",
+      "macos",
+      "self-hosted",
+      "nextcloud"
+    ],
+    "repository": "https://github.com/nextcloud/server",
+    "image": "https://hub.docker.com/_/nextcloud/",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Nextcloud",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Nextcloud/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Nextcloud/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Nextcloud/screenshots/3.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Nextcloud/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Nextcloud/cosmos-compose.json"
+  },
+  {
+    "name": "Nightscout",
+    "description": "Web-based CGM (Continuous Glucose Monitor) to allow multiple caregivers to remotely view a patient's glucose data in real time",
+    "longDescription": "<p>Nightscout (also known as CGM in the Cloud) is an open-source cloud application used by people with diabetes and parents of kids with diabetes to visualize, store and share the data from their Continuous Glucose Monitoring sensors in real-time. Once setup, Nightscout acts as a central repository of blood glucose and insulin dosing/treatment data for a single person, allowing you to view the CGM graph and treatment data anywhere using just a web browser connected to the internet.</p>",
+    "tags": [
+      "health",
+      "cgm",
+      "diabetes"
+    ],
+    "repository": "https://github.com/nightscout/cgm-remote-monitor",
+    "image": "https://hub.docker.com/r/nightscout/cgm-remote-monitor",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Nightscout",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Nightscout/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Nightscout/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Nightscout/screenshots/3.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Nightscout/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Nightscout/cosmos-compose.json"
+  },
+  {
+    "name": "Notifiarr",
+    "longDescription": "<p>You just found one of the coolest tools on the Internet for a homelab enthusiast. We do notifications. We do them right. We've been doing then for years and we'll keep doing them for years to come. Notifiarr provides native custom integrations with dozens, maybe hundreds of applications and websites. That means these applications or websites can send data to Notifiarr, and we'll format a message according to your configuration then send it to your chat server.</p>",
+    "description": "You just found one of the coolest tools on the Internet for a homelab enthusiast. We do notifications.",
+    "tags": [
+      "notifications",
+      "rest api",
+      "curl",
+      "push notifications"
+    ],
+    "repository": "https://github.com/Notifiarr/notifiarr",
+    "image": "https://hub.docker.com/r/golift/notifiarr",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Notifiarr",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Notifiarr/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Notifiarr/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Notifiarr/cosmos-compose.json"
+  },
+  {
+    "name": "Odoo",
+    "longDescription": "<p>Odoo is a suite of web based open source business apps. The main Odoo Apps include an Open Source CRM, Website Builder, eCommerce, Warehouse Management.</p>",
+    "description": "Odoo is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, ...",
+    "tags": [
+      "CRM",
+      "Website Builder",
+      "eCommerce",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/bitnami/containers/",
+    "image": "https://hub.docker.com/r/bitnami/Odoo",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Odoo",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Odoo/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Odoo/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Odoo/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Odoo/cosmos-compose.json"
+  },
+  {
+    "name": "OhMyForm",
+    "longDescription": "<p>OhMyForm is a free, open-source software that allows you to craft beautiful forms in seconds for various purposes such as recruiting, market research, surveys, and more. It offers a user-friendly interface and features that make creating, administering, analyzing, and distributing forms straightforward.</p><p>Key features of OhMyForm include its wide variety of built-in tools, the ability to create embeddable forms, and a powerful community of contributors that constantly improve and vet the platform. As open-source software, OhMyForm is not only always improving but also completely free.</p><p>One of the advantages of OhMyForm is the ability to host it yourself, ensuring no installation fees or monthly charges. This commitment to being 100% open-source allows users to maintain full control over their forms and data.</p>",
+    "description": "OhMyForm is a free, open-source form creation software. It offers a range of features for creating, administering, analyzing, and distributing beautiful, embeddable forms for various purposes such as recruiting, market research, and surveys. OhMyForm allows for self-hosting with no installation fees or monthly charges.",
+    "tags": [
+      "productivity",
+      "open-source",
+      "self-hosted",
+      "form creation",
+      "surveys",
+      "recruiting",
+      "market research",
+      "embeddable forms"
+    ],
+    "repository": "https://github.com/ohmyform/ohmyform",
+    "image": "https://hub.docker.com/r/ohmyform/ohmyform",
+    "supported_architectures": [
+      "amd64"
+    ],
+    "id": "OhMyForm",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/OhMyForm/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/OhMyForm/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/OhMyForm/cosmos-compose.json"
+  },
+  {
+    "name": "Ombi",
+    "longDescription": "<p>Ombi is an open-source, self-hosted web application that enables you to give your shared Plex or Emby users the ability to request content. It's an intuitive interface between your media server and the users.</p><p>Key features of Ombi include user management, a request system, notification system, and automatic updates. Ombi can be integrated with popular platforms such as Plex, Emby, Sonarr, Radarr, and Tautulli, making it an essential tool for managing requests for media content.</p><p>Ombi is compatible with various platforms, including Windows, Linux, MacOS, and it supports Docker, making it a highly versatile tool for various environments.</p>",
+    "description": "Ombi is an open-source, self-hosted web application that enables Plex or Emby users to request content. It offers features like user management, a request system, notification system, and automatic updates. Ombi is compatible with popular platforms such as Plex, Emby, Sonarr, Radarr, and Tautulli. It can be run on Windows, Linux, MacOS, and Docker.",
+    "tags": [
+      "media",
+      "request",
+      "library",
+      "open-source",
+      "self-hosted",
+      "web application",
+      "plex",
+      "emby",
+      "request system",
+      "media content",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/Ombi-app/Ombi",
+    "image": "https://hub.docker.com/r/linuxserver/ombi",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Ombi",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ombi/screenshots/1.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ombi/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ombi/cosmos-compose.json"
+  },
+  {
+    "name": "OpenCart",
+    "longDescription": "<p>OpenCart is an online store management system. It is PHP-based, using a MySQL database and HTML components. Support is provided for different languages and currencies.</p> The default username: <b>user</b> and the default password is: <b>bitnami</b>. You can change these in the admin panel of the application. If you get an http mixed content error, change the HTTP_SERVER on <b>config.php</b> file to https",
+    "description": "A free shopping cart system. OpenCart is an open source PHP-based online e-commerce solution.",
+    "tags": [
+      "development",
+      "shopping",
+      "self-hosted",
+      "management"
+    ],
+    "repository": "https://github.com/bitnami/containers/",
+    "image": "https://hub.docker.com/r/bitnami/opencart",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Opencart",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Opencart/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Opencart/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Opencart/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Opencart/cosmos-compose.json"
+  },
+  {
+    "name": "Openspeedtest",
+    "longDescription": "<p>SpeedTest by OpenSpeedTest™ is a Free and Open-Source HTML5 Network Performance Estimation Tool Written in Vanilla Javascript and only uses built-in Web APIs like XMLHttpRequest (XHR), HTML, CSS, JS, & SVG. No Third-Party frameworks or libraries are Required. All we need is a static web server like NGINX. This project was started in 2011 and moved to OpenSpeedTest.com dedicated Project/Domain Name in 2013.</p> <p>For better results choose expose ports option and access speedtest on cosmos-ip:3333 (or the port you provided).",
+    "description": "HTML5 Internet Speed Test. no Flash or Java!",
+    "tags": [
+      "self-hosted",
+      "management"
+    ],
+    "repository": "https://github.com/openspeedtest/Speed-Test",
+    "image": "https://hub.docker.com/r/openspeedtest/latest",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Openspeedtest",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Openspeedtest/screenshots/1.gif"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Openspeedtest/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Openspeedtest/cosmos-compose.json"
+  },
+  {
+    "name": "Overseerr",
+    "longDescription": "<p>Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services, such as Sonarr, Radarr, and Plex.</p><p>Overseerr helps you find media you want to watch. With inline recommendations and suggestions, you will find yourself deeper and deeper in a rabbit hole of content you never knew you just had to have.</p><p>Overseerr presents you and your users with a request interface that is incredibly easy to understand and use. Users can select the exact seasons they want to watch. Advanced users can use the “Advanced Requests” options to change destination folders and quality profiles.</p><p>Overseerr aims to make you and your user's lives more effortless than ever before.</p>",
+    "description": "Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.",
+    "tags": [
+      "media",
+      "request",
+      "library",
+      "open-source",
+      "self-hosted",
+      "web application",
+      "plex",
+      "request system",
+      "media content",
+      "windows",
+      "linux",
+      "macos",
+      "docker",
+      "radarr",
+      "sonarr"
+    ],
+    "repository": "https://github.com/sct/overseerr",
+    "image": "https://hub.docker.com/r/linuxserver/overseerr",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Overseerr",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Overseerr/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Overseerr/screenshots/2.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Overseerr/screenshots/3.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Overseerr/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Overseerr/cosmos-compose.json"
+  },
+  {
+    "name": "Paperless-ngx",
+    "longDescription": "<p>Paperless-ngx is a community-supported open-source document management system that transforms your physical documents into a searchable online archive so you can keep, well, less paper.</p><p>This version of Paperless-ngx is configured using PostgreSQL as the database server, as well as Apache, Tika, and Gotenberg servers to provide support for consuming Office documents (Word, Excel, Power Point and their LibreOffice counterparts.</p>",
+    "description": "Paperless-ngx is a document management system that transforms your physical documents into a searchable online archive so you can keep, well, less paper.",
+    "tags": [
+      "document",
+      "management",
+      "organization",
+      "archive",
+      "collection",
+      "web interface",
+      "paper",
+      "docker"
+    ],
+    "repository": "https://github.com/paperless-ngx/paperless-ngx",
+    "image": "https://ghcr.io/paperless-ngx/paperless-ngx",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Paperless-ngx",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Paperless-ngx/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Paperless-ngx/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Paperless-ngx/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Paperless-ngx/cosmos-compose.json"
+  },
+  {
+    "name": "PhotoPrism",
+    "longDescription": "<p>PhotoPrism is an open-source personal photo management tool that makes use of the latest technologies to provide an easy and intuitive way to keep your photos organized. It provides a web-based platform to browse, organize, and share your personal photo collection.</p><p>With features like smart search, automated tagging, and geolocation, PhotoPrism makes it easy to find and group your photos. It supports various image formats and RAW files from high-quality cameras. PhotoPrism can also automatically generate thumbnails and convert RAW images.</p><p>Available for Windows, Linux, MacOS, and other platforms, PhotoPrism offers a private, self-hosted solution for your photo management needs. Start using PhotoPrism today to take control of your photo collection!</p>",
+    "description": "PhotoPrism is an open-source personal photo management tool that uses smart search, automated tagging, and geolocation to help organize your photos. It supports various image formats, generates thumbnails, and converts RAW images. PhotoPrism works across various platforms and offers a private, self-hosted solution for managing your photos. Start using PhotoPrism today for your photo management needs.",
+    "tags": [
+      "photo management",
+      "image organizer",
+      "smart search",
+      "automated tagging",
+      "geolocation",
+      "thumbnails",
+      "RAW images",
+      "self-hosted",
+      "windows",
+      "linux",
+      "macos",
+      "photoprism"
+    ],
+    "repository": "https://github.com/photoprism/photoprism",
+    "image": "https://hub.docker.com/r/photoprism/photoprism",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Photoprism",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Photoprism/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Photoprism/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Photoprism/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Photoprism/cosmos-compose.json"
+  },
+  {
+    "name": "Pingvin-share",
+    "longDescription": "<p>Pingvin Share is self-hosted file sharing platform and an alternative for WeTransfer.<br /><br />  ## ✨ Features<br />  <br />  - Share files using a link<br />  - Unlimited file size (restricted only by disk space)<br />  - Set an expiration date for shares<br />  - Secure shares with visitor limits and passwords<br />  - Email recipients<br />  - Integration with ClamAV for security scans</p>",
+    "description": "file sharing platform that combines lightness and beauty, perfect for seamless and efficient file sharing",
+    "tags": [
+      "share",
+      "file"
+    ],
+    "repository": "https://github.com/stonith404/pingvin-share",
+    "image": "https://hub.docker.com/r/stonith404/pingvin-share",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Pingvin-share",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Pingvin-share/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Pingvin-share/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Pingvin-share/cosmos-compose.json"
+  },
+  {
+    "name": "Piped",
+    "longDescription": "<p>Piped is an open-source alternative frontend for YouTube with a strong emphasis on safeguarding user privacy and data security. This privacy-focused platform was born as a response to the increasingly invasive privacy policies and data collection practices employed by mainstream video-sharing platforms like YouTube.</p><p>With Piped, users can enjoy content without the fear of their every click and preference being monitored. Piped offers a host of user-centric features, including an ad-free experience, no tracking, a lightweight design that places minimal load on both servers and clients, infinite scrolling for seamless content discovery, and the flexibility to switch between light and dark themes. It also provides login functionality, customizable feeds, integration with SponsorBlock and LBRY for streaming, 4K video support, and bypassing geo-restrictions where possible through a federated network.</p><p>From a technical perspective, Piped incorporates multi-region load-balancing and is designed to handle thousands of users concurrently. Notably, it achieves these features without relying on official YouTube APIs, instead using NewPipeExtractor to extract information and offering a public JSON API. Furthermore, Piped operates on a federated protocol on Matrix, enabling instances to collaborate with each other.</p><p>The platform is actively developed, translated into multiple languages, and is hosted on various mirror sites for redundancy and availability. Self-hosting is also supported, allowing users to have full control over their experience. Piped is released under the AGPL v3 license and is actively maintained by a dedicated community of contributors.</p>",
+    "description": "Piped is a privacy-focused open-source YouTube frontend that offers users an alternative to the official YouTube platform. It prioritizes user privacy and offers a range of features to enhance the viewing experience.",
+    "tags": [
+      "YouTube frontend",
+      "privacy-focused",
+      "open-source",
+      "AGPL v3",
+      "Matrix",
+      "IPFS",
+      "continuous development"
+    ],
+    "repository": "https://github.com/TeamPiped/Piped",
+    "image": "https://hub.docker.com/r/1337kavin/piped",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Piped",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Piped/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Piped/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Piped/screenshots/3.png"
+    ],
+    "artefacts": {
+      "config.properties": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Piped/artefacts/config.properties"
+    },
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Piped/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Piped/cosmos-compose.json"
+  },
+  {
+    "name": "Plex",
+    "longDescription": "<p>WARNING! We highly advise AGAINST using Plex. It is gradually becoming agressive against the self-hosting community to the point that it might as well become cloud only in the next few years. It is also NOT a selfhosted app as a lof of your data are in the cloud (include analytics about what you watch) and it is not opensource. Instead, consider using Jellyfin, which is selfhosted and opensource unlike Plex.</p><p>Plex is a comprehensive media solution that organizes your video and music collections, giving you instant access across all your devices. With the free Plex Media Server software installed on your home computer and Plex's iOS app, you can enjoy your personal media on your iPhone, iPad, or iPod touch, and conveniently share it with your friends and family.</p><p>Plex is not just about easy access, it also enhances your media collection by adding rich descriptions, artwork, and other related information, making your media look visually appealing. If you choose to subscribe to the optional premium Plex Pass, you get the added ability to sync videos, music, and photos to your smartphones and tablets for offline enjoyment.</p><p>Premium features also include parental controls, enhanced music features, access to music videos, trailers, extras, and robust management tools. Starting with Plex is straightforward and quick. Get started today and transform your media experience!</p>",
+    "description": "Plex organizes all of your video, and music collections, and gives you instant access to them on all of your devices. With the free Plex Media Server software on your home computer and Plex for iOS, you can enjoy all of your personal media on your iPhone, iPad or iPod touch, and easily share it with friends and family. Plex also makes your media look beautiful with rich descriptions, artwork, and other related information. With an optional premium Plex Pass subscription, you can even sync videos, music, and photos to your smartphones and tablets to enjoy while offline. Parental controls, premium music features, music videos, trailers and extras, and powerful management tools are also part of our premium offering. Getting up and running is fast and simple, so get started now!",
+    "tags": [
+      "media",
+      "movies",
+      "streaming",
+      "tv",
+      "music",
+      "photos",
+      "videos",
+      "audiobooks",
+      "podcasts",
+      "dlna",
+      "chromecast",
+      "android",
+      "ios",
+      "roku",
+      "firetv",
+      "smarttv",
+      "web",
+      "browser",
+      "kodi",
+      "emby",
+      "plex",
+      "media browser",
+      "media server",
+      "media streaming",
+      "media player",
+      "media center",
+      "media management",
+      "media organizer",
+      "media collection",
+      "media library",
+      "media manager",
+      "media sharing",
+      "media transcoding",
+      "media casting",
+      "media casting",
+      "media casting"
+    ],
+    "repository": "https://github.com/plex/plex",
+    "image": "https://hub.docker.com/r/linuxserver/plex",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Plex",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Plex/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Plex/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Plex/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Plex/cosmos-compose.json"
+  },
+  {
+    "name": "Prowlarr",
+    "longDescription": "<p>Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports management of both Torrent Trackers and Usenet Indexers. It integrates seamlessly with Lidarr, Mylar3, Radarr, Readarr, and Sonarr offering complete management of your indexers with no per app Indexer setup required (we do it all).</p><p>Documentation (https://wiki.servarr.com/prowlarr)</p>",
+    "description": "Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base stack to integrate with your various PVR apps.",
+    "tags": [
+      "download",
+      "automation",
+      "downloader",
+      "media",
+      "collection",
+      "indexers",
+      "sonarr",
+      "radarr",
+      "lidarr",
+      "prowlarr"
+    ],
+    "repository": "https://github.com/Prowlarr/Prowlarr",
+    "image": "https://hub.docker.com/r/linuxserver/prowlarr",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Prowlarr",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Prowlarr/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Prowlarr/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Prowlarr/screenshots/3.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Prowlarr/screenshots/4.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Prowlarr/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Prowlarr/cosmos-compose.json"
+  },
+  {
+    "name": "RSS-Bridge",
+    "longDescription": "<p>The RSS feed for websites missing it.</p><p>With RSS-Bridge, you can create RSS Feeds for websites that usually don't provide Feeds. You can either use one of the many already existing bridges or create your own.</p>",
+    "description": "With RSS-Bridge, you can host your own Feed creator for websites that do not provide feeds.",
+    "tags": [
+      "self-hosted services",
+      "rss",
+      "web interface",
+      "open-source",
+      "Docker",
+      "cross-platform"
+    ],
+    "repository": "https://github.com/RSS-Bridge/rss-bridge",
+    "image": "https://hub.docker.com/r/rssbridge/rss-bridge",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "RSS-Bridge",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/RSS-Bridge/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/RSS-Bridge/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/RSS-Bridge/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/RSS-Bridge/cosmos-compose.json"
+  },
+  {
+    "name": "Radarr",
+    "longDescription": "<p>Radarr is an independent fork of Sonarr reworked for automatically downloading movies via Usenet and BitTorrent. The project was inspired by other Usenet/BitTorrent movie downloaders such as CouchPotato.</p><p>Radarr provides a sleek, customizable interface to manage your movie collection, offering features like trailer linking, metadata fetching, and more. The software integrates with popular download clients and can automate your movie download process.</p><p>Radarr supports a variety of platforms including Windows, Linux, and MacOS, and also offers a mobile-friendly web interface. Setting up Radarr is straightforward. Get started today to streamline your movie downloading and management experience!</p>",
+    "description": "Radarr is an automated movie download application, similar to CouchPotato. It helps you to manage your movie collection with features like metadata fetching, trailer linking, and integration with popular download clients. Radarr works across Windows, Linux, MacOS and has a mobile-friendly web interface. Start using Radarr now to automate and enhance your movie downloading and management process.",
+    "tags": [
+      "download",
+      "movies",
+      "torrent",
+      "usenet",
+      "automated",
+      "downloader",
+      "media",
+      "collection",
+      "usenet",
+      "bittorrent",
+      "windows",
+      "linux",
+      "macos",
+      "web interface",
+      "metadata",
+      "movie management",
+      "movie collection",
+      "radarr"
+    ],
+    "repository": "https://github.com/Radarr/Radarr",
+    "image": "https://hub.docker.com/r/linuxserver/radarr",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Radarr",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Radarr/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Radarr/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Radarr/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Radarr/cosmos-compose.json"
+  },
+  {
+    "name": "Readarr",
+    "longDescription": "<p>Readarr is an open-source, self-hosted PVR (Personal Video Recorder) for managing and downloading ebooks. It's built off of the Radarr, Sonarr, and Lidarr platforms and brings the same powerful features to the world of ebooks.</p><p>Key features of Readarr include the ability to add your favorite authors, automatic book searching, calendar integration, and the ability to import existing libraries. It supports integration with popular download clients and can send notifications via a number of platforms.</p><p>Readarr is compatible with various platforms, including Windows, Linux, MacOS, and it supports Docker, making it a highly versatile tool for various environments.</p>",
+    "description": "Readarr is an open-source, self-hosted PVR for managing and downloading ebooks. It offers features like adding favorite authors, automatic book searching, calendar integration, and importing existing libraries. Readarr supports integration with popular download clients and can send notifications. It can be run on Windows, Linux, MacOS, and Docker.",
+    "tags": [
+      "download",
+      "ebooks",
+      "readarr",
+      "open-source",
+      "self-hosted",
+      "PVR",
+      "book management",
+      "download",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/Readarr/Readarr",
+    "image": "https://hub.docker.com/r/linuxserver/readarr",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Readarr",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Readarr/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Readarr/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Readarr/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Readarr/cosmos-compose.json"
+  },
+  {
+    "name": "Ryot",
+    "longDescription": "<p>Ryot is a self hosted platform for tracking various facets of your life - media, fitness etc. Imagine you have a special notebook where you can write down all the media you have consumed, like books you've read, shows you have watched, video games you have played or workouts you have done. Now, imagine that instead of a physical notebook, you have a special tool on your computer or phone that lets you keep track of all these digitally.</p>",
+    "description": "A self hosted platform for tracking various facets of your life - media, fitness etc.",
+    "tags": [
+      "tracker",
+      "media",
+      "fitness",
+      "open-source",
+      "collection",
+      "docker",
+      "windows",
+      "linux",
+      "macos",
+      "web interface",
+      "metadata",
+      "episode tracking",
+      "movie tracking",
+      "audiobook tracking",
+      "reading tracking",
+      "fitness tracking",
+      "integrations",
+      "ryot"
+    ],
+    "repository": "https://github.com/IgnisDa/ryot",
+    "image": "https://ghcr.io/ignisda/ryot",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Ryot",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ryot/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ryot/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ryot/screenshots/3.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ryot/screenshots/4.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ryot/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Ryot/cosmos-compose.json"
+  },
+  {
+    "name": "SABnzbd",
+    "longDescription": "<p>SABnzbd is an open-source binary newsreader and Usenet downloader. It simplifies the process of downloading from Usenet by automating the majority of tasks involved. SABnzbd is renowned for its ease of use, high-speed downloading capabilities, and extensive customization options.</p><p>With features like web-interface accessibility, API support, automatic post-processing, and RSS feed integration, SABnzbd stands out as a versatile tool for Usenet downloading. It is optimized to run efficiently on various hardware, including low-powered devices like the Raspberry Pi.</p><p>SABnzbd is cross-platform, available on Windows, MacOS, Linux, and other operating systems, making it accessible to a wide range of users. Embrace the power and simplicity of SABnzbd for your Usenet downloading needs.</p>",
+    "description": "SABnzbd is an advanced Usenet downloader that automates the process of downloading and managing files from Usenet. It features a user-friendly web interface, API support, automatic post-processing, and RSS feed integration. Optimized for performance, SABnzbd runs smoothly on different platforms, including low-powered devices. Experience efficient Usenet downloading with SABnzbd!",
+    "tags": [
+      "usenet",
+      "downloader",
+      "newsreader",
+      "sabnzbd",
+      "windows",
+      "linux",
+      "macos",
+      "raspberry pi",
+      "performance",
+      "rss feed",
+      "post-processing",
+      "open-source"
+    ],
+    "repository": "https://github.com/sabnzbd/sabnzbd",
+    "image": "https://hub.docker.com/r/linuxserver/sabnzbd",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Sabnzbd",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sabnzbd/screenshots/1.webp"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sabnzbd/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sabnzbd/cosmos-compose.json"
+  },
+  {
+    "name": "SearXNG",
+    "longDescription": "SearXNG is a privacy-respecting, open-source metasearch engine that aggregates results from various search engines while respecting user privacy. It allows users to search without being tracked and provides customizable search preferences. SearXNG can be self-hosted or used on public instances, giving users control over their search experience.",
+    "description": "SearXNG is an open-source metasearch engine focused on privacy and user control.",
+    "tags": [
+      "search engine",
+      "privacy",
+      "open-source",
+      "metasearch"
+    ],
+    "repository": "https://github.com/searxng/searxng",
+    "image": "https://hub.docker.com/r/searxng/searxng",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "SearXNG",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/SearXNG/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/SearXNG/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/SearXNG/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/SearXNG/cosmos-compose.json"
+  },
+  {
+    "name": "Sonarqube",
+    "longDescription": "<p>SonarQube is an open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs and code smells on 29 programming languages.</p>",
+    "description": "Empower development teams with a code quality, security and static analysis solution that deeply integrates into your enterprise environment.",
+    "tags": [
+      "development",
+      "repository management",
+      "code collaboration",
+      "issue tracking",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/bitnami/containers/",
+    "image": "https://hub.docker.com/r/bitnami/Odoo",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Sonarqube",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sonarqube/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sonarqube/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sonarqube/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sonarqube/cosmos-compose.json"
+  },
+  {
+    "name": "Sonarr",
+    "longDescription": "<p>Sonarr is a multi-platform app to search, download, and manage TV shows. It automates the process of searching for new episodes, and can automatically download these files with your preferred download software.</p><p>Sonarr offers features such as automatic quality upgrades, series and episode tracking, and metadata fetching to enrich your media library. The interface is user-friendly and mobile-responsive, ensuring you can manage your TV shows easily on any device.</p><p>Available for Windows, Linux, and MacOS, Sonarr makes the TV show management process easy and efficient. Get started with Sonarr today and transform your media management experience!</p>",
+    "description": "Sonarr is an automated TV show manager that can search, download, and manage your TV series. It offers features like automatic quality upgrades, episode tracking, and metadata fetching. Sonarr works across various platforms including Windows, Linux, MacOS, and has a mobile-friendly web interface. Start using Sonarr now to automate your TV show management process.",
+    "tags": [
+      "download",
+      "tv shows",
+      "torrent",
+      "usenet",
+      "automated",
+      "manager",
+      "media",
+      "collection",
+      "windows",
+      "linux",
+      "macos",
+      "web interface",
+      "metadata",
+      "episode tracking",
+      "quality upgrades",
+      "sonarr"
+    ],
+    "repository": "https://github.com/Sonarr/Sonarr",
+    "image": "https://hub.docker.com/r/linuxserver/sonarr",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Sonarr",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sonarr/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sonarr/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sonarr/screenshots/3.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sonarr/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sonarr/cosmos-compose.json"
+  },
+  {
+    "name": "Stirling-PDF",
+    "longDescription": "<p>This is a locally hosted web application that allows you to perform various operations on PDF files, such as splitting and adding images.</p>",
+    "description": "This is a locally hosted web application that allows you to perform various operations on PDF files, such as splitting and adding images.",
+    "tags": [
+      "document",
+      "management",
+      "organization",
+      "archive",
+      "collection",
+      "web interface",
+      "paper",
+      "docker"
+    ],
+    "repository": "https://github.com/Frooodle/Stirling-PDF",
+    "image": "https://hub.docker.com/r/frooodle/s-pdf",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Stirling-PDF",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Stirling-PDF/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Stirling-PDF/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Stirling-PDF/cosmos-compose.json"
+  },
+  {
+    "name": "Suitecrm",
+    "longDescription": "<p>SuiteCRM is an open-source Customer Relationship Management application for servers written in PHP. It is a software fork of the popular customer relationship management system from SugarCRM and its base is built on the last open-source SugarCRM release.</p>",
+    "description": "Open Source CRM (Customer Relationship Management) software solution for SME and Enterprise. Available as SaaS or on-premise.",
+    "tags": [
+      "crm",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/bitnami/containers/",
+    "image": "https://hub.docker.com/r/bitnami/suitecrm",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Suitecrm",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Suitecrm/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Suitecrm/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Suitecrm/screenshots/3.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Suitecrm/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Suitecrm/cosmos-compose.json"
+  },
+  {
+    "name": "Syncthing",
+    "longDescription": "Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers. Syncthing's primary goals are safety from data loss, security against attackers, ease of use, automation, and universal availability. It's designed for individual users who want a safe, secure, and user-friendly file synchronization solution. Syncthing supports a wide range of platforms, including Windows, Mac, Linux, and more. You can find the source code and further information on the official GitHub repository.",
+    "description": "Syncthing is a continuous file synchronization program that prioritizes safety, security, ease of use, and automation. It's designed for individual users and supports a wide range of platforms, including Windows, Mac, and Linux.",
+    "tags": [
+      "file synchronization",
+      "data security",
+      "automation",
+      "cross-platform",
+      "individual users",
+      "open-source",
+      "continuous synchronization"
+    ],
+    "repository": "https://github.com/syncthing/syncthing",
+    "image": "https://hub.docker.com/r/syncthing/syncthing",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Syncthing",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Syncthing/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Syncthing/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Syncthing/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Syncthing/cosmos-compose.json"
+  },
+  {
+    "name": "Tandoor",
+    "longDescription": "<p>Tandoor Recipes is the self hosted recipe manager with meal planning, shopping lists and cookbook collections.</p><p>The days of storing recipes on paper cards is in the past and what better way to preserve older recipes that were handed down then to log them into a digital, self hosted recipe manager where you can access them anywhere?</p><p>Tandoor Recipes is much more than a digital recipe reference archive, it's a complete meal planning power house.</p>",
+    "description": "Tandoor is a recipe manager that allows you to manage your ever growing collection of digital recipes.",
+    "tags": [
+      "recipes",
+      "meals",
+      "shopping",
+      "planning",
+      "cookbook",
+      "docker",
+      "pwa"
+    ],
+    "repository": "https://github.com/TandoorRecipes/recipes",
+    "image": "https://hub.docker.com/r/vabene1111/recipes",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Tandoor",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Tandoor/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Tandoor/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Tandoor/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Tandoor/cosmos-compose.json"
+  },
+  {
+    "name": "Tautulli",
+    "longDescription": "<p>Tautulli is a 3rd party application that you can run alongside your Plex Media Server to monitor activity and track various statistics. Most importantly, these statistics include what has been watched, who watched it, when and where they watched it, and how it was watched.</p>",
+    "description": "Tautulli A Python based monitoring and tracking tool for Plex Media Server.",
+    "tags": [
+      "media",
+      "movies",
+      "streaming",
+      "tv",
+      "music",
+      "photos",
+      "videos",
+      "audiobooks",
+      "podcasts",
+      "dlna",
+      "chromecast",
+      "android",
+      "ios",
+      "roku",
+      "firetv",
+      "smarttv",
+      "web",
+      "browser",
+      "kodi",
+      "emby",
+      "plex",
+      "media browser",
+      "media server",
+      "media streaming",
+      "media player",
+      "media center",
+      "media management",
+      "media organizer",
+      "media collection",
+      "media library",
+      "media manager",
+      "media sharing",
+      "media transcoding",
+      "media casting",
+      "media casting",
+      "media casting"
+    ],
+    "repository": "https://github.com/Tautulli/Tautulli/",
+    "image": "https://hub.docker.com/r/linuxserver/tautulli",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Tautulli",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Tautulli/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Tautulli/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Tautulli/screenshots/3.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Tautulli/screenshots/4.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Tautulli/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Tautulli/cosmos-compose.json"
+  },
+  {
+    "name": "Threadfin",
+    "description": "M3U Proxy for Plex DVR and Emby/Jellyfin Live TV. Based on xTeVe.",
+    "longDescription": "<p>Threadfin is a M3U proxy server for Plex, Emby, Jellyfin and any client and provider which supports the .TS and .M3U8 (HLS) streaming formats.</p><p>Threadfin emulates a SiliconDust HDHomeRun OTA tuner, which allows it to expose IPTV style channels to software, which would not normally support it. This Docker image includes the following packages and features:</p><ul><li>Threadfin (Linux) x86 64 bit ffmpeg Support Runs as unprivileged user</li></ul>",
+    "tags": [
+      "media",
+      "iptv",
+      "tvguide",
+      "open-source",
+      "self-hosted",
+      "web application",
+      "plex",
+      "emby",
+      "jellyfin",
+      "request system",
+      "media content",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/Threadfin/Threadfin",
+    "image": "https://hub.docker.com/r/fyb3roptik/threadfin",
+    "supported_architectures": [
+      "amd64",
+      "arm64",
+      "arm/v7",
+      "arm/v8"
+    ],
+    "id": "Threadfin",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Threadfin/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Threadfin/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Threadfin/cosmos-compose.json"
+  },
+  {
+    "name": "Transmission",
+    "longDescription": "<p>Transmission is a cross-platform BitTorrent client that is open-source, volunteer-based, and free from advertisements. It is highly regarded for its low resource usage, simplicity, and performance.</p><p>With its intuitive interface, Transmission allows users to quickly and easily download and share files via the BitTorrent protocol. Its standout features include built-in encryption, webseed support, peer exchange, automatic port mapping, and the ability to set speed limits for individual torrents.</p><p>Transmission is available for a variety of platforms including Windows, Linux, and MacOS. It also provides a web interface for remote control, making it a popular choice among users looking for a lightweight, reliable BitTorrent client.</p>",
+    "description": "Transmission is an open-source, cross-platform BitTorrent client. It is widely praised for its minimal resource usage, ease-of-use, and performance. Transmission provides features like built-in encryption, webseed support, peer exchange, automatic port mapping, and individual torrent speed limit settings. It supports Windows, Linux, MacOS, and also offers a web interface for remote control.",
+    "tags": [
+      "download",
+      "torrent",
+      "bittorrent",
+      "downloader",
+      "open-source",
+      "cross-platform",
+      "file sharing",
+      "peer-to-peer",
+      "p2p",
+      "transmission",
+      "windows",
+      "linux",
+      "macos",
+      "web interface"
+    ],
+    "repository": "https://github.com/transmission/transmission",
+    "image": "https://hub.docker.com/r/linuxserver/transmission",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Transmission",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Transmission/screenshots/1.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Transmission/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Transmission/cosmos-compose.json"
+  },
+  {
+    "name": "Unmanic",
+    "description": "Unmanic is a simple tool for optimising your file library. You can use it to convert your files into a single, uniform format, manage file movements based on timestamps, or execute custom commands against a file based on its file size.",
+    "longDescription": "<p>Unmanic is a simple tool for optimising your file library. You can use it to convert your files into a single, uniform format, manage file movements based on timestamps, or execute custom commands against a file based on its file size.</p><p>Simply configure Unmanic pointing it at your library and let it automatically manage that library for you.</p><p>Unmanic provides you with the following main functions:</p><ul><li>A scheduler built in to scan your whole library for files that do not conform to your configured file presets. Files found requiring processing are then queued.</li><li>A file/directory monitor. When a file is modified, or a new file is added in your library, Unmanic is able to again test that against your configured file presets. Like the first function, if this file requires processing, it is added to a queue for processing.</li><li>A handler to manage running multiple file manipulation tasks at a time.</li><li>A Web UI to easily configure, manage and monitor the progress of your library optimisation.</li></ul>",
+    "tags": [
+      "media",
+      "server",
+      "tv",
+      "videos",
+      "web",
+      "browser",
+      "media browser",
+      "media server",
+      "media streaming",
+      "media player",
+      "media center",
+      "media management",
+      "media organizer",
+      "media collection",
+      "media library",
+      "media manager"
+    ],
+    "repository": "https://github.com/Unmanic/unmanic",
+    "image": "https://hub.docker.com/r/josh5/unmanic",
+    "supported_architectures": [
+      "amd64",
+      "arm7",
+      "arm64"
+    ],
+    "id": "Unmanic",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Unmanic/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Unmanic/screenshots/2.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Unmanic/screenshots/3.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Unmanic/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Unmanic/cosmos-compose.json"
+  },
+  {
+    "name": "Uptime Kuma",
+    "longDescription": "<p>Uptime Kuma is an open-source, self-hosted monitoring tool that allows users to monitor their online services and get alerts when they go down or become unresponsive. This robust yet user-friendly tool is designed to help you keep track of your services' uptime.</p><p>Key features of Uptime Kuma include status checking for various services including HTTP(s), TCP, and ICMP, detailed statistics with charts, and multiple notification methods (like email, Slack, Telegram, etc.). Its clean, intuitive user interface makes setup and management of monitored services easy.</p><p>Uptime Kuma is compatible with various platforms, including Windows, Linux, MacOS, and it supports Docker, making it a highly versatile tool for various environments.</p>",
+    "description": "Uptime Kuma is an open-source, self-hosted monitoring tool for tracking the uptime of online services. It offers status checks for various services, detailed statistics with charts, and multiple notification methods. Uptime Kuma is compatible with Windows, Linux, MacOS, and Docker.",
+    "tags": [
+      "technical",
+      "administration",
+      "server",
+      "open-source",
+      "self-hosted",
+      "monitoring",
+      "uptime",
+      "service status",
+      "notifications",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/louislam/uptime-kuma",
+    "image": "https://hub.docker.com/r/louislam/uptime-kuma",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "UptimeKuma",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/UptimeKuma/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/UptimeKuma/screenshots/2.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/UptimeKuma/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/UptimeKuma/cosmos-compose.json"
+  },
+  {
+    "name": "Vaultwarden",
+    "longDescription": "<p>Vaultwarden is an open-source password management server that is compatible with Bitwarden apps. It provides a secure and free self-hosted solution to store and synchronize sensitive data across multiple devices, with the ability to share data across organizations, users, and teams.</p><p>Written in Rust, Vaultwarden is designed for lightweight and low resource usage. It allows you to store all kinds of sensitive information, including passwords, credit card details, and secure notes, which can be accessed through Bitwarden's web, mobile, or browser extension apps.</p><p>Vaultwarden supports various platforms, including Linux, Windows, MacOS, and can be deployed easily using Docker.</p>",
+    "description": "Vaultwarden is an open-source, self-hosted password management server compatible with Bitwarden apps. Written in Rust, it provides a secure way to store and synchronize sensitive data across devices with lightweight and low resource usage. Vaultwarden supports various platforms, including Linux, Windows, MacOS, and Docker.",
+    "tags": [
+      "productivity",
+      "password-manager",
+      "password manager",
+      "bitwarden",
+      "rust",
+      "sensitive data",
+      "synchronization",
+      "linux",
+      "windows",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/dani-garcia/vaultwarden",
+    "image": "https://hub.docker.com/r/vaultwarden/server",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Vaultwarden",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Vaultwarden/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Vaultwarden/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Vaultwarden/cosmos-compose.json"
+  },
+  {
+    "name": "Webtop",
+    "longDescription": "<p>Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser</p>",
+    "description": "Webtop - Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser",
+    "tags": [
+      "Desktop",
+      "VNC",
+      "KASM"
+    ],
+    "repository": "https://github.com/kasmtech",
+    "image": "https://hub.docker.com/r/linuxserver/docker-webtop",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Webtop",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Webtop/screenshots/1.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Webtop/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Webtop/cosmos-compose.json"
+  },
+  {
+    "name": "WikMD",
+    "longDescription": "<p>It's a file-based wiki that aims to simplicity. The documents are completely written in Markdown which is an easy markup language that you can learn in 60 sec.</p><p>Instead of storing the data in a database I chose to have a file-based system. The advantage of this system is that every file is directly readable inside a terminal etc. Also when you have direct access to the system you can export the files to anything you like.</p><p>To view the documents in the browser, the document is converted to html.</p>",
+    "description": "A simple, file-based wiki using Markdown",
+    "tags": [
+      "wiki",
+      "markdown",
+      "file-based",
+      "git"
+    ],
+    "repository": "https://github.com/Linbreux/wikmd",
+    "image": "https://hub.docker.com/r/linbreux/wikmd",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "WikMD",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/WikMD/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/WikMD/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/WikMD/cosmos-compose.json"
+  },
+  {
+    "name": "WordPress",
+    "longDescription": "<p>WordPress is a free and open-source content management system (CMS) based on PHP and MySQL. It is one of the most popular website management or blogging system in use on the Web, supporting more than 60 million websites.</p><p>WordPress allows users to create and edit websites through a central administrative dashboard, which includes a text editor for modifying content, menus and various design elements. It offers thousands of themes and plugins that can enhance functionality and customization options, making it suitable for a variety of website types, from personal blogs to online stores.</p><p>With its vast community, WordPress users have access to a plethora of resources, tutorials, and guides. Start your website journey with WordPress today!</p>",
+    "description": "WordPress is a free, open-source content management system based on PHP and MySQL. Known for its flexibility and ease-of-use, it supports a range of website types with thousands of plugins and themes. WordPress features a robust administrative dashboard for website creation, modification, and management. It is widely supported across various hosting platforms.",
+    "tags": [
+      "blogging",
+      "cms",
+      "website management",
+      "php",
+      "mysql",
+      "themes",
+      "plugins",
+      "self-hosted",
+      "wordpress"
+    ],
+    "repository": "https://github.com/WordPress/WordPress",
+    "image": "https://hub.docker.com/_/wordpress",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "Wordpress",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Wordpress/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Wordpress/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Wordpress/cosmos-compose.json"
+  },
+  {
+    "name": "changedetection",
+    "longDescription": "ChangeDetection.io is an advanced web monitoring service designed to track changes across websites. This tool is particularly useful for individuals and businesses needing to stay informed about updates, new content, or alterations on specific web pages. It works by regularly scanning designated websites and comparing current page content with previously stored versions. Users can receive notifications whenever a change is detected. This functionality is invaluable for competitive analysis, tracking regulatory changes, monitoring competitors' pricing strategies, or staying updated with news or content updates. The service offers a user-friendly interface, customizable alert settings, and robust scanning capabilities, making it a go-to solution for comprehensive web change detection.",
+    "description": "changedetection.io is a free website change monitoring tool. Receive alerts by email, SMS or Slack when your website is down or has unexpected changes.",
+    "tags": [
+      "monitor",
+      "website",
+      "change",
+      "detection",
+      "alert",
+      "open source",
+      "diff",
+      "tracker",
+      "utilities"
+    ],
+    "repository": "https://github.com/dgtlmoon/changedetection.io",
+    "image": "https://hub.docker.com/r/linuxserver/changedetection.io",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "changedetection.io",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/changedetection.io/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/changedetection.io/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/changedetection.io/cosmos-compose.json"
+  },
+  {
+    "name": "memos",
+    "description": "A privacy-first, lightweight note-taking service. Easily capture and share your great thoughts.",
+    "longDescription": "<p>Pure text with added Markdown support. Say goodbye to the overwhelming mental burden of rich formatting and embrace a minimalist approach.</p><p>Customize and share your notes effortlessly. With our intuitive sharing features, you can easily collaborate and distribute your notes with others.</p>",
+    "tags": [
+      "markdown",
+      "social-network",
+      "memo",
+      "note-taking",
+      "notes",
+      "microblog"
+    ],
+    "repository": "https://github.com/usememos/memos",
+    "image": "https://github.com/usememos/memos/pkgs/container/memos",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "memos",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/memos/screenshots/1.webp"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/memos/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/memos/cosmos-compose.json"
+  },
+  {
+    "name": "ntfy",
+    "longDescription": "<p>ntfy (pronounced \"notify\") is a simple HTTP-based pub-sub notification service. With ntfy, you can send notifications to your phone or desktop via scripts from any computer, without having to sign up or pay any fees.</p>",
+    "description": "Send push notifications to your phone or desktop using PUT/POST.",
+    "tags": [
+      "notifications",
+      "rest api",
+      "curl",
+      "push notifications"
+    ],
+    "repository": "https://github.com/binwiederhier/ntfy",
+    "image": "https://hub.docker.com/r/binwiederhier/ntfy",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "ntfy",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/ntfy/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/ntfy/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/ntfy/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/ntfy/cosmos-compose.json"
+  },
+  {
+    "name": "phpBB",
+    "longDescription": "phpBB is a free and open-source forum software written in PHP. It provides a platform for creating online communities and discussion forums with features such as user registration, private messaging, moderation tools, and customizable themes. Known for its flexibility, phpBB allows users to customize the appearance and functionality of their forums. It has an active user community and supports extensions for additional features.",
+    "description": "phpBB is a popular open-source forum software written in PHP, offering a customizable platform for online communities.",
+    "tags": [
+      "forum software",
+      "open-source",
+      "PHP",
+      "community",
+      "moderation"
+    ],
+    "repository": "https://github.com/phpbb/phpbb",
+    "image": "https://hub.docker.com/r/bitnami/phpbb/",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "phpbb",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/phpbb/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/phpbb/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/phpbb/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/phpbb/cosmos-compose.json"
+  },
+  {
+    "name": "Redmine",
+    "longDescription": "<p>Redmine is a free and open source, web-based project management and issue tracking tool. It allows users to manage multiple projects and associated subprojects. It features per project wikis and forums, time tracking, and flexible, role-based access control.</p>",
+    "description": "Redmine is a flexible project management web application. Written using the Ruby on Rails framework, it is cross-platform and cross-database.",
+    "tags": [
+      "development",
+      "repository management",
+      "code collaboration",
+      "issue tracking",
+      "self-hosted"
+    ],
+    "repository": "https://github.com/bitnami/containers/",
+    "image": "https://hub.docker.com/r/bitnami/redmine",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "redmine",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/redmine/screenshots/1.jpg",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/redmine/screenshots/2.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/redmine/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/redmine/cosmos-compose.json"
+  },
+  {
+    "name": "Speedtest Tracker",
+    "longDescription": "<p>Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service. It allows you to monitor your network's speed and performance over time, building a history of your internet's performance so that you can be informed when you're not receiving your ISP's advertised rates.<br>The default credentials are:<br>Email: admin@example.com<br>Password: password</p>",
+    "description": "Speedtest Tracker is a self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.",
+    "tags": [
+      "speedtest",
+      "network",
+      "monitoring"
+    ],
+    "repository": "https://github.com/alexjustesen/speedtest-tracker",
+    "image": "https://hub.docker.com/r/linuxserver/speedtest-tracker",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "speedtest-tracker",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/speedtest-tracker/screenshots/1.jpg"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/speedtest-tracker/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/speedtest-tracker/cosmos-compose.json"
+  },
+  {
+    "name": "Unpackerr",
+    "description": "Unpackerr extracts your Sonarr/Radarr/Lidarr torrent files.",
+    "longDescription": "<p>Unpackerr extracts your Sonarr/Radarr/Lidarr torrent files.</p>",
+    "tags": [
+      "media",
+      "server",
+      "tv",
+      "videos",
+      "media management",
+      "download",
+      "zip",
+      "unpack",
+      "rar"
+    ],
+    "repository": "https://github.com/hotio/unpackerr/pkgs/container/unpackerr",
+    "image": "https://github.com/hotio/unpackerr/pkgs/container/unpackerr",
+    "supported_architectures": [
+      "amd64",
+      "arm64"
+    ],
+    "id": "unpackerr",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/unpackerr/screenshots/.keep"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/unpackerr/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/unpackerr/cosmos-compose.json"
+  },
+  {
+    "name": "xTeVe",
+    "description": "xTeVe is a M3U proxy server used by apps like Plex (requires plex pass) or Jellyfin. It emulates a physical tuner allowing you to expose IPTV channels.",
+    "longDescription": "<p>xTeVe is a M3U proxy server for Plex, Emby, Jellyfin and any client and provider which supports the .TS and .M3U8 (HLS) streaming formats.</p><p>xTeVe emulates a SiliconDust HDHomeRun OTA tuner, which allows it to expose IPTV style channels to software, which would not normally support it.</p><p>Note: you need to provide both the m3u and xml channel lineups. xTeVe will then allow you to map them and expose an endpoint for your Plex/Jellyfin to leverage.</p>",
+    "tags": [
+      "media",
+      "iptv",
+      "tvguide",
+      "open-source",
+      "self-hosted",
+      "web application",
+      "plex",
+      "emby",
+      "jellyfin",
+      "request system",
+      "media content",
+      "windows",
+      "linux",
+      "macos",
+      "docker"
+    ],
+    "repository": "https://github.com/dnsforge-repo/xteve",
+    "image": "https://hub.docker.com/r/dnsforge/xteve",
+    "supported_architectures": [
+      "amd64"
+    ],
+    "id": "xTeVe",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/xTeVe/screenshots/1.png",
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/xTeVe/screenshots/2.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/xTeVe/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/xTeVe/cosmos-compose.json"
+  }
+]
