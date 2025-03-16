@@ -5,7 +5,7 @@
 Add source:
 
 ```
-https://Sudo-Ivan.github.io/ivans-cosmos-servapps/servapps.json
+https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps.json
 ```
 
 ## ServeApps
