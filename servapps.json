@@ -2164,6 +2164,32 @@
     "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Nightscout/cosmos-compose.json"
   },
   {
+    "name": "NomadNet",
+    "longDescription": "<p>NomadNet is an off-grid, resilient mesh communication platform with strong encryption, forward secrecy and extreme privacy. It allows you to build private and resilient communications platforms that are in complete control and ownership of the users.</p><p>Key features include encrypted messaging over packet-radio, LoRa, WiFi or other mediums, zero-configuration mesh communication, distributed and encrypted message store, connectable nodes that can host pages and files, and a built-in text-based browser.</p><p>NomadNet does not need any connections to the public internet to work and can operate entirely over packet radio, LoRa or serial lines.</p>",
+    "description": "Off-grid mesh communication platform with strong encryption and privacy",
+    "tags": [
+      "communication",
+      "mesh-network",
+      "privacy",
+      "encryption",
+      "off-grid",
+      "lora",
+      "packet-radio"
+    ],
+    "repository": "https://github.com/markqvist/nomadnet",
+    "image": "ghcr.io/markqvist/nomadnet",
+    "supported_architectures": [
+      "amd64"
+    ],
+    "id": "NomadNet",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/NomadNet/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/NomadNet/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/NomadNet/cosmos-compose.json"
+  },
+  {
     "name": "Notifiarr",
     "longDescription": "<p>You just found one of the coolest tools on the Internet for a homelab enthusiast. We do notifications. We do them right. We've been doing then for years and we'll keep doing them for years to come. Notifiarr provides native custom integrations with dozens, maybe hundreds of applications and websites. That means these applications or websites can send data to Notifiarr, and we'll format a message according to your configuration then send it to your chat server.</p>",
     "description": "You just found one of the coolest tools on the Internet for a homelab enthusiast. We do notifications.",
