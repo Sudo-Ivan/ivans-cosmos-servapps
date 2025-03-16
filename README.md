@@ -12,8 +12,12 @@ https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps.json
 
 ### Wikis
 
-- WikMD
+- WikMD `latest`
 
 ### Recipe Management
 
 - Mealie `v2.7.1`
+
+### Finance
+
+- Wallos `latest`
