@@ -17,13 +17,13 @@ for (const file of servapps) {
   // list all screenshots in the directory servapps/${file}/screenshots
   const screenshots = fs.readdirSync(`./servapps/${file}/screenshots`)
   for (const screenshot of screenshots) {
-    servapp.screenshots.push(`https://azukaar.github.io/cosmos-servapps-official/servapps/${file}/screenshots/${screenshot}`)
+    servapp.screenshots.push(`https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/${file}/screenshots/${screenshot}`)
   }
 
   if(fs.existsSync(`./servapps/${file}/artefacts`)) {
     const artefacts = fs.readdirSync(`./servapps/${file}/artefacts`)
     for(const artefact of artefacts) {
-      servapp.artefacts[artefact] = (`https://azukaar.github.io/cosmos-servapps-official/servapps/${file}/artefacts/${artefact}`)
+      servapp.artefacts[artefact] = (`https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/${file}/artefacts/${artefact}`)
     }
   }
 
