@@ -24,4 +24,8 @@ https://sudo-ivan.github.io/ivans-cosmos-servapps/index.json
 
 ### Bookmarking
 
-- Linkwarden `latest`
+- Linkwarden `latest` (todo: add ollama support)
+
+### Mesh Network
+
+- NomadNet `latest`

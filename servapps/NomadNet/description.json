@@ -1,0 +1,9 @@
+{
+  "name": "NomadNet",
+  "longDescription": "<p>NomadNet is an off-grid, resilient mesh communication platform with strong encryption, forward secrecy and extreme privacy. It allows you to build private and resilient communications platforms that are in complete control and ownership of the users.</p><p>Key features include encrypted messaging over packet-radio, LoRa, WiFi or other mediums, zero-configuration mesh communication, distributed and encrypted message store, connectable nodes that can host pages and files, and a built-in text-based browser.</p><p>NomadNet does not need any connections to the public internet to work and can operate entirely over packet radio, LoRa or serial lines.</p>",
+  "description": "Off-grid mesh communication platform with strong encryption and privacy",
+  "tags": ["communication", "mesh-network", "privacy", "encryption", "off-grid", "lora", "packet-radio"],
+  "repository": "https://github.com/markqvist/nomadnet",
+  "image": "ghcr.io/markqvist/nomadnet",
+  "supported_architectures": ["amd64"]
+} 
