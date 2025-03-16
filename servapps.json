@@ -2347,6 +2347,33 @@
     "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Openspeedtest/cosmos-compose.json"
   },
   {
+    "name": "OtterWiki",
+    "longDescription": "<p>OtterWiki is a minimalistic Python-based wiki software that uses Git for content storage and version control. Content is written in Markdown with extended features like tables, footnotes, fancy blocks, alerts and mermaid diagrams.</p><p>Key features include a dark mode interface, markdown editor with syntax highlighting, customizable sidebar with menu and page index, full changelog tracking, user authentication, page attachments, and experimental Git HTTP server support for cloning and pushing content.</p><p>Built with Flask and using Halfmoon CSS framework, it provides a clean and efficient wiki experience with version control built-in.</p>",
+    "description": "Minimalistic Git-based wiki with Markdown support and version control",
+    "tags": [
+      "wiki",
+      "markdown",
+      "git",
+      "collaboration",
+      "documentation"
+    ],
+    "repository": "https://github.com/redimp/otterwiki",
+    "image": "https://hub.docker.com/r/redimp/otterwiki",
+    "supported_architectures": [
+      "amd64",
+      "arm64",
+      "armv7",
+      "armv6"
+    ],
+    "id": "OtterWiki",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/OtterWiki/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/OtterWiki/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/OtterWiki/cosmos-compose.json"
+  },
+  {
     "name": "Overseerr",
     "longDescription": "<p>Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services, such as Sonarr, Radarr, and Plex.</p><p>Overseerr helps you find media you want to watch. With inline recommendations and suggestions, you will find yourself deeper and deeper in a rabbit hole of content you never knew you just had to have.</p><p>Overseerr presents you and your users with a request interface that is incredibly easy to understand and use. Users can select the exact seasons they want to watch. Advanced users can use the “Advanced Requests” options to change destination folders and quality profiles.</p><p>Overseerr aims to make you and your user's lives more effortless than ever before.</p>",
     "description": "Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.",
