@@ -2,24 +2,15 @@
   "cosmos-installer": {
     "form": [
       {
-        "name": "useOllama",
-        "label": "Enable Ollama AI integration?",
-        "initialValue": false,
-        "type": "checkbox"
+        "name": "dataPath",
+        "label": "Where should Linkwarden store its data?",
+        "initialValue": "{DefaultDataPath}/linkwarden",
+        "type": "text"
       },
       {
-        "name": "ollamaEndpoint",
-        "label": "Ollama endpoint URL (if enabled)",
-        "type": "text",
-        "initialValue": "http://localhost:11434",
-        "showIf": "useOllama"
-      },
-      {
-        "name": "ollamaModel",
-        "label": "Ollama model to use (if enabled)",
-        "type": "text",
-        "initialValue": "phi3:mini-4k",
-        "showIf": "useOllama"
+        "name": "nextAuthSecret",
+        "label": "Set a secure secret for NextAuth (required)",
+        "type": "password"
       }
     ]
   },
@@ -29,28 +20,29 @@
       "image": "ghcr.io/linkwarden/linkwarden:latest",
       "container_name": "{ServiceName}",
       "restart": "unless-stopped",
-      "depends_on": {
-        "{ServiceName}-db": {}
-      },
+      "UID": 1000,
+      "GID": 1000,
       "environment": [
+        "PUID=1000",
+        "PGID=1000",
         "TZ=auto",
-        "NEXTAUTH_URL=https://{Hostnames.{StaticServiceName}.{StaticServiceName}.host}/api/v1/auth",
-        "NEXTAUTH_SECRET={Passwords.0}",
-        "DATABASE_URL=postgresql://postgres:{Passwords.1}@{ServiceName}-db:5432/linkwarden",
-        {"condition": "Context.useOllama", "value": "NEXT_PUBLIC_OLLAMA_ENDPOINT_URL={Context.ollamaEndpoint}"},
-        {"condition": "Context.useOllama", "value": "OLLAMA_MODEL={Context.ollamaModel}"}
+        "NEXTAUTH_URL=https://{Context.host}/api/v1/auth",
+        "NEXTAUTH_SECRET={Context.nextAuthSecret}",
+        "POSTGRES_PASSWORD={RandomString}",
+        "DATABASE_URL=postgresql://postgres:{RandomString}@db:5432/linkwarden"
       ],
       "labels": {
-        "cosmos-persistent-env": "NEXTAUTH_SECRET",
         "cosmos-force-network-secured": "true",
         "cosmos-auto-update": "true",
-        "cosmos-icon": "https://Sudo-Ivan.github.io/ivans-cosmos-servapps/servapps/Linkwarden/icon.png",
-        "cosmos-stack": "{ServiceName}",
-        "cosmos-stack-main": "{ServiceName}"
+        "cosmos-icon": "https://Sudo-Ivan.github.io/ivans-cosmos-servapps/servapps/Linkwarden/icon.jpg"
       },
-      "networks": {
-        "{ServiceName}-network": {}
-      },
+      "volumes": [
+        {
+          "source": "{Context.dataPath}/db",
+          "target": "/var/lib/postgresql/data",
+          "type": "bind"
+        }
+      ],
       "routes": [
         {
           "name": "{ServiceName}",
@@ -66,38 +58,6 @@
           }
         }
       ]
-    },
-    "{ServiceName}-db": {
-      "image": "postgres:15-alpine",
-      "container_name": "{ServiceName}-db",
-      "restart": "unless-stopped",
-      "stop_grace_period": 5,
-      "security_opt": [
-        "seccomp:unconfined",
-        "apparmor:unconfined"
-      ],
-      "networks": {
-        "{ServiceName}-network": {}
-      },
-      "volumes": [
-        {
-          "source": "{ServiceName}-db-data",
-          "target": "/var/lib/postgresql/data",
-          "type": "volume"
-        }
-      ],
-      "environment": [
-        "POSTGRES_DB=linkwarden",
-        "POSTGRES_PASSWORD={Passwords.1}"
-      ],
-      "labels": {
-        "cosmos-persistent-env": "POSTGRES_PASSWORD",
-        "cosmos-stack": "{ServiceName}",
-        "cosmos-stack-main": "{ServiceName}"
-      }
     }
-  },
-  "networks": {
-    "{ServiceName}-network": {}
   }
 } 
