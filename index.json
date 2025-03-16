@@ -1850,6 +1850,31 @@
       "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lidarr/cosmos-compose.json"
     },
     {
+      "name": "Linkwarden",
+      "longDescription": "<p>Linkwarden is a self-hosted, collaborative bookmark manager designed to collect, organize and archive webpages. It helps prevent link rot by automatically capturing screenshots, PDFs, and single HTML files of bookmarked pages.</p><p>Key features include automatic webpage preservation, AI tagging (with optional Ollama integration), collection organization, collaboration tools, full-text search, and browser extensions. The platform supports multiple users, permission management, and public/private sharing options.</p><p>Perfect for teams and individuals who want to maintain a organized, preserved collection of web resources. Optional AI tagging can be enabled by connecting to an Ollama instance.</p>",
+      "description": "Self-hosted collaborative bookmark manager with webpage preservation and optional AI tagging",
+      "tags": [
+        "bookmarks",
+        "collaboration",
+        "archival",
+        "organization",
+        "web-preservation",
+        "ai"
+      ],
+      "repository": "https://github.com/linkwarden/linkwarden",
+      "image": "ghcr.io/linkwarden/linkwarden",
+      "supported_architectures": [
+        "amd64"
+      ],
+      "id": "Linkwarden",
+      "screenshots": [
+        "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Linkwarden/screenshots/1.png"
+      ],
+      "artefacts": {},
+      "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Linkwarden/icon.png",
+      "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Linkwarden/cosmos-compose.json"
+    },
+    {
       "name": "MKVToolNix",
       "longDescription": "<p>This project implements a Docker container for MKVToolNix.</p><p>The GUI of the application is accessed through a modern web browser (no installation or configuration needed on the client side) or via any VNC client.</p>",
       "description": "MKVToolNix is a set of tools to create, alter and inspect Matroska files.",
