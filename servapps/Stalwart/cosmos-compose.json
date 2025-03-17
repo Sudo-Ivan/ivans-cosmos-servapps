@@ -1,0 +1,185 @@
+{
+  "cosmos-installer": {
+    "form": [
+      {
+        "name": "dataPath",
+        "label": "Where should Stalwart store its data?",
+        "initialValue": "{DefaultDataPath}/stalwart",
+        "type": "text"
+      }
+    ],
+    "post-install": [
+      {
+        "type": "info",
+        "label": "After installation, run 'docker logs {ServiceName}' to obtain the administrator account and password. Log in to the web interface at http://yourserver.org:8080/login to complete the configuration."
+      }
+    ]
+  },
+  "minVersion": "0.7.6",
+  "services": {
+    "{ServiceName}": {
+      "image": "stalwartlabs/mail-server:latest",
+      "container_name": "{ServiceName}",
+      "restart": "unless-stopped",
+      "UID": 1000,
+      "GID": 1000,
+      "environment": [
+        "PUID=1000",
+        "PGID=1000",
+        "TZ=auto"
+      ],
+      "labels": {
+        "cosmos-force-network-secured": "true",
+        "cosmos-auto-update": "true",
+        "cosmos-icon": "https://Sudo-Ivan.github.io/ivans-cosmos-servapps/servapps/Stalwart/icon.png",
+        "cosmos-stack": "{ServiceName}",
+        "cosmos-stack-main": "{ServiceName}"
+      },
+      "networks": {
+        "{ServiceName}-network": {}
+      },
+      "volumes": [
+        {
+          "source": "{Context.dataPath}",
+          "target": "/opt/stalwart-mail",
+          "type": "bind"
+        }
+      ],
+      "routes": [
+        {
+          "name": "{ServiceName}-http",
+          "description": "Expose {ServiceName} web interface",
+          "useHost": true,
+          "target": "http://{ServiceName}:8080",
+          "mode": "SERVAPP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": true
+          }
+        },
+        {
+          "name": "{ServiceName}-https",
+          "description": "Expose {ServiceName} HTTPS",
+          "useHost": true,
+          "target": "http://{ServiceName}:443",
+          "mode": "SERVAPP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": true
+          }
+        },
+        {
+          "name": "{ServiceName}-smtp",
+          "description": "Expose {ServiceName} SMTP",
+          "useHost": true,
+          "target": "tcp://{ServiceName}:25",
+          "mode": "TCP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": false
+          }
+        },
+        {
+          "name": "{ServiceName}-smtps",
+          "description": "Expose {ServiceName} SMTPS",
+          "useHost": true,
+          "target": "tcp://{ServiceName}:465",
+          "mode": "TCP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": false
+          }
+        },
+        {
+          "name": "{ServiceName}-submission",
+          "description": "Expose {ServiceName} Submission",
+          "useHost": true,
+          "target": "tcp://{ServiceName}:587",
+          "mode": "TCP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": false
+          }
+        },
+        {
+          "name": "{ServiceName}-imap",
+          "description": "Expose {ServiceName} IMAP",
+          "useHost": true,
+          "target": "tcp://{ServiceName}:143",
+          "mode": "TCP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": false
+          }
+        },
+        {
+          "name": "{ServiceName}-imaps",
+          "description": "Expose {ServiceName} IMAPS",
+          "useHost": true,
+          "target": "tcp://{ServiceName}:993",
+          "mode": "TCP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": false
+          }
+        },
+        {
+          "name": "{ServiceName}-managesieve",
+          "description": "Expose {ServiceName} ManageSieve",
+          "useHost": true,
+          "target": "tcp://{ServiceName}:4190",
+          "mode": "TCP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": false
+          }
+        },
+        {
+          "name": "{ServiceName}-pop3",
+          "description": "Expose {ServiceName} POP3",
+          "useHost": true,
+          "target": "tcp://{ServiceName}:110",
+          "mode": "TCP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": false
+          }
+        },
+        {
+          "name": "{ServiceName}-pop3s",
+          "description": "Expose {ServiceName} POP3S",
+          "useHost": true,
+          "target": "tcp://{ServiceName}:995",
+          "mode": "TCP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": false
+          }
+        }
+      ]
+    }
+  },
+  "networks": {
+    "{ServiceName}-network": {}
+  }
+} 

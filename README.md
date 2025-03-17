@@ -35,3 +35,7 @@ https://sudo-ivan.github.io/ivans-cosmos-servapps/index.json
 
 - Gaseous `latest`
 - Lodestone `latest`
+
+### Mail
+
+- Stalwart `latest`
