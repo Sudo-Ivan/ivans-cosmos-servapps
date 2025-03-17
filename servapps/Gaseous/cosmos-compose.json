@@ -40,7 +40,9 @@
         "dbuser=root",
         "dbpass=gaseous",
         "igdbclientid={Context.igdbClientId}",
-        "igdbclientsecret={Context.igdbClientSecret}"
+        "igdbclientsecret={Context.igdbClientSecret}",
+        "PUID=1000",
+        "PGID=1000"
       ],
       "labels": {
         "cosmos-force-network-secured": "true",

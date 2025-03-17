@@ -22,7 +22,9 @@
       "container_name": "{ServiceName}",
       "restart": "unless-stopped",
       "environment": [
-        "TZ=auto"
+        "TZ=auto",
+        "PUID=1000",
+        "PGID=1000"
       ],
       "labels": {
         "cosmos-force-network-secured": "true",
