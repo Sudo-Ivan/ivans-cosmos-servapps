@@ -32,7 +32,11 @@
       "image": "redimp/otterwiki:2",
       "container_name": "{ServiceName}",
       "restart": "unless-stopped",
+      "UID": 1000,
+      "GID": 1000,
       "environment": [
+        "PUID=1000",
+        "PGID=1000",
         "TZ=auto",
         "SITE_NAME={Context.siteName}",
         "SITE_DESCRIPTION={Context.siteDescription}"

@@ -22,7 +22,11 @@
       "image": "ghcr.io/markqvist/nomadnet:master",
       "container_name": "{ServiceName}",
       "restart": "unless-stopped",
+      "UID": 1000,
+      "GID": 1000,
       "environment": [
+        "PUID=1000",
+        "PGID=1000",
         "TZ=auto"
       ],
       "labels": {
