@@ -30,3 +30,7 @@ https://sudo-ivan.github.io/ivans-cosmos-servapps/index.json
 ### Mesh Network
 
 - NomadNet `latest`
+
+### Gaming
+
+- Gaseous `latest`

@@ -1,0 +1,108 @@
+{
+  "cosmos-installer": {
+    "form": [
+      {
+        "name": "dataPath",
+        "label": "Where should Gaseous store its data?",
+        "initialValue": "{DefaultDataPath}/gaseous",
+        "type": "text"
+      },
+      {
+        "name": "igdbClientId",
+        "label": "IGDB Client ID (required)",
+        "type": "text"
+      },
+      {
+        "name": "igdbClientSecret",
+        "label": "IGDB Client Secret (required)",
+        "type": "password"
+      },
+      {
+        "name": "tz",
+        "label": "Timezone",
+        "initialValue": "UTC",
+        "type": "text"
+      }
+    ]
+  },
+  "minVersion": "0.7.6",
+  "services": {
+    "{ServiceName}": {
+      "image": "gaseousgames/gaseousserver:latest",
+      "container_name": "{ServiceName}",
+      "restart": "unless-stopped",
+      "depends_on": {
+        "{ServiceName}-db": {}
+      },
+      "environment": [
+        "TZ={Context.tz}",
+        "dbhost={ServiceName}-db",
+        "dbuser=root",
+        "dbpass=gaseous",
+        "igdbclientid={Context.igdbClientId}",
+        "igdbclientsecret={Context.igdbClientSecret}"
+      ],
+      "labels": {
+        "cosmos-force-network-secured": "true",
+        "cosmos-auto-update": "true",
+        "cosmos-icon": "https://Sudo-Ivan.github.io/ivans-cosmos-servapps/servapps/Gaseous/icon.png",
+        "cosmos-stack": "{ServiceName}",
+        "cosmos-stack-main": "{ServiceName}"
+      },
+      "networks": {
+        "{ServiceName}-network": {}
+      },
+      "volumes": [
+        {
+          "source": "{Context.dataPath}/gaseous-server",
+          "target": "/root/.gaseous-server",
+          "type": "bind"
+        }
+      ],
+      "routes": [
+        {
+          "name": "{ServiceName}",
+          "description": "Expose {ServiceName} to the web",
+          "useHost": true,
+          "target": "http://{ServiceName}:80",
+          "mode": "SERVAPP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": true
+          }
+        }
+      ]
+    },
+    "{ServiceName}-db": {
+      "image": "mariadb",
+      "container_name": "{ServiceName}-db",
+      "restart": "unless-stopped",
+      "environment": [
+        "MARIADB_ROOT_PASSWORD=gaseous",
+        "MARIADB_USER=gaseous",
+        "MARIADB_PASSWORD=gaseous"
+      ],
+      "labels": {
+          "cosmos-stack": "{ServiceName}",
+          "cosmos-stack-main": "{ServiceName}"
+      },
+      "networks": {
+        "{ServiceName}-network": {}
+      },
+      "volumes": [
+        {
+          "source": "{Context.dataPath}/gaseous-db",
+          "target": "/var/lib/mysql",
+          "type": "bind"
+        }
+      ]
+    }
+  },
+  "networks": {
+    "{ServiceName}-network": {
+      "driver": "bridge"
+    }
+  }
+} 
