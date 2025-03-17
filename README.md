@@ -34,3 +34,4 @@ https://sudo-ivan.github.io/ivans-cosmos-servapps/index.json
 ### Gaming
 
 - Gaseous `latest`
+- Lodestone `latest`
