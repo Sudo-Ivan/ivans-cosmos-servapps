@@ -1087,6 +1087,32 @@
       "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Frigate-NVR/cosmos-compose.json"
     },
     {
+      "name": "Gaseous Server",
+      "longDescription": "<p>Gaseous Server is a self-hosted game ROM manager with a built-in web-based emulator. It uses multiple sources to identify and provide metadata for your ROMs, making it easy to organize and play your retro game collection.</p><p>Key features include ROM management, metadata fetching from IGDB, in-browser emulation (via EmulatorJS), user authentication, and support for various platforms. It requires a MariaDB or MySQL database and an IGDB API key.</p><p>Gaseous Server is designed to be a central hub for your retro gaming library, allowing you to access and play your games from any device with a web browser.</p>",
+      "description": "Self-hosted game ROM manager with built-in web-based emulator and metadata fetching.",
+      "tags": [
+        "gaming",
+        "rom-management",
+        "emulation",
+        "self-hosted",
+        "retro-gaming",
+        "emulatorjs",
+        "igdb"
+      ],
+      "repository": "https://github.com/gaseous-project/gaseous-server",
+      "image": "gaseousgames/gaseousserver",
+      "supported_architectures": [
+        "amd64"
+      ],
+      "id": "Gaseous",
+      "screenshots": [
+        "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Gaseous/screenshots/1.png"
+      ],
+      "artefacts": {},
+      "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Gaseous/icon.png",
+      "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Gaseous/cosmos-compose.json"
+    },
+    {
       "name": "Ghost",
       "longDescription": "<p>Ghost is a powerful app for professional publishers to create, share, and grow a business around their content. It comes with modern tools to build a website, publish content, send newsletters & offer paid subscriptions to members.</p>",
       "description": "Ghost is an open source, professional publishing platform built on a modern Node.js technology stack — designed for teams who need power, flexibility and performance",
