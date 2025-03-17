@@ -1770,6 +1770,31 @@
     "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Linkwarden/cosmos-compose.json"
   },
   {
+    "name": "Lodestone",
+    "longDescription": "<p>Lodestone is a free, open source server hosting tool designed for Minecraft and other multiplayer games. It aims to be easy to use, secure, and feature-rich, built with Rust, React, and TypeScript.</p><p>Key features include a clean UI, one-click installation, real-time server status, a file manager, collaborative server management, user permissions, extensions via macros, and connection without port forwarding via playit.gg integration.</p><p>Lodestone prioritizes safety and security, with user permission management and a focus on secure coding practices. It supports managing Docker containers (work in progress).</p>",
+    "description": "Open source server hosting tool for Minecraft and other multiplayer games",
+    "tags": [
+      "gaming",
+      "server-hosting",
+      "minecraft",
+      "multiplayer",
+      "self-hosted",
+      "docker"
+    ],
+    "repository": "https://github.com/Lodestone-Team/lodestone",
+    "image": "ghcr.io/lodestone-team/lodestone_core",
+    "supported_architectures": [
+      "amd64"
+    ],
+    "id": "Lodestone",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lodestone/screenshots/1.png"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lodestone/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Lodestone/cosmos-compose.json"
+  },
+  {
     "name": "MKVToolNix",
     "longDescription": "<p>This project implements a Docker container for MKVToolNix.</p><p>The GUI of the application is accessed through a modern web browser (no installation or configuration needed on the client side) or via any VNC client.</p>",
     "description": "MKVToolNix is a set of tools to create, alter and inspect Matroska files.",
