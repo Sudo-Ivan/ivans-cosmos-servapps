@@ -2928,6 +2928,33 @@
     "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Sonarr/cosmos-compose.json"
   },
   {
+    "name": "Stalwart Mail Server",
+    "longDescription": "<p>Stalwart Mail Server is an all-in-one mail server solution that includes JMAP, IMAP, and SMTP servers. It is designed to be secure, fast, and reliable, with a focus on ease of use and modern features.</p><p>Key features include:</p><ul><li>JMAP (RFC 8620) support for modern mail clients</li><li>IMAP4rev2 (RFC 9051) and POP3 support for traditional mail clients</li><li>SMTP support with DKIM, SPF, and DMARC</li><li>Built-in spam and phishing filtering</li><li>Sieve scripting for mail filtering and automation</li><li>Web administration interface</li><li>Support for multiple domains and users</li><li>TLS encryption for secure communication</li><li>ACME support for automatic TLS certificate management</li></ul><p>Stalwart Mail Server is available as a Docker image and can be easily deployed on any system that supports Docker.</p>",
+    "description": "All-in-one mail server with JMAP, IMAP, and SMTP support.",
+    "tags": [
+      "mail",
+      "email",
+      "jmap",
+      "imap",
+      "smtp",
+      "server",
+      "self-hosted",
+      "docker"
+    ],
+    "repository": "https://github.com/stalwartlabs/mail-server",
+    "image": "stalwartlabs/mail-server",
+    "supported_architectures": [
+      "amd64"
+    ],
+    "id": "Stalwart",
+    "screenshots": [
+      "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Stalwart/screenshots/1.gif"
+    ],
+    "artefacts": {},
+    "icon": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Stalwart/icon.png",
+    "compose": "https://sudo-ivan.github.io/ivans-cosmos-servapps/servapps/Stalwart/cosmos-compose.json"
+  },
+  {
     "name": "Stirling-PDF",
     "longDescription": "<p>This is a locally hosted web application that allows you to perform various operations on PDF files, such as splitting and adding images.</p>",
     "description": "This is a locally hosted web application that allows you to perform various operations on PDF files, such as splitting and adding images.",
