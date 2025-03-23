@@ -1,0 +1,94 @@
+{
+  "cosmos-installer": {
+    "form": [
+      {
+        "name": "dataPath",
+        "label": "Where should Factorio store its data?",
+        "initialValue": "{DefaultDataPath}/factorio",
+        "type": "text"
+      },
+      {
+        "name": "serverName",
+        "label": "Server Name",
+        "type": "text",
+        "initialValue": "Factorio Server"
+      },
+      {
+        "name": "serverDescription",
+        "label": "Server Description",
+        "type": "text"
+      }
+    ],
+    "post-install": [
+      {
+        "type": "info",
+        "label": "Your Factorio server will be available on port 34197. The RCON password can be found in the rconpw file in your data directory."
+      }
+    ]
+  },
+  "minVersion": "0.7.6",
+  "services": {
+    "{ServiceName}": {
+      "image": "factoriotools/factorio:latest",
+      "container_name": "{ServiceName}",
+      "restart": "unless-stopped",
+      "UID": 1000,
+      "GID": 1000,
+      "environment": [
+        "PUID=1000",
+        "PGID=1000",
+        "TZ=auto",
+        "GENERATE_NEW_SAVE=true",
+        "SAVE_NAME=cosmos_save"
+      ],
+      "labels": {
+        "cosmos-force-network-secured": "true",
+        "cosmos-auto-update": "true",
+        "cosmos-icon": "https://Sudo-Ivan.github.io/ivans-cosmos-servapps/servapps/Factorio/icon.png",
+        "cosmos-stack": "{ServiceName}",
+        "cosmos-stack-main": "{ServiceName}"
+      },
+      "networks": {
+        "{ServiceName}-network": {}
+      },
+      "volumes": [
+        {
+          "source": "{Context.dataPath}",
+          "target": "/factorio",
+          "type": "bind"
+        }
+      ],
+      "routes": [
+        {
+          "name": "{ServiceName}-game",
+          "description": "Expose {ServiceName} game port",
+          "useHost": true,
+          "target": "udp://{ServiceName}:34197",
+          "mode": "UDP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": false
+          }
+        },
+        {
+          "name": "{ServiceName}-rcon",
+          "description": "Expose {ServiceName} RCON port",
+          "useHost": true,
+          "target": "tcp://{ServiceName}:27015",
+          "mode": "TCP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": false
+          }
+        }
+      ]
+    }
+  },
+  "networks": {
+    "{ServiceName}-network": {}
+  }
+} 

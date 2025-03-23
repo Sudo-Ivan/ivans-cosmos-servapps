@@ -39,3 +39,9 @@ https://sudo-ivan.github.io/ivans-cosmos-servapps/index.json
 ### Mail
 
 - Stalwart `latest`
+
+### Game Servers
+
+- Factorio `latest`
+- Valheim `latest`
+

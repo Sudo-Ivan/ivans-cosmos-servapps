@@ -1,0 +1,9 @@
+{
+  "name": "Valheim Server",
+  "longDescription": "<p>A dedicated server for Valheim, a survival exploration game. This server implementation includes automatic backups, updates, and monitoring features.</p><p>Key features include:</p><ul><li>Automatic world backups</li><li>Server updates</li><li>Crossplay support</li><li>Admin list management</li><li>Server monitoring</li><li>World persistence</li><li>Optional public listing</li><li>Password protection</li></ul><p>The server requires approximately 1GB of initial download for server files. UDP ports 2456-2457 need to be accessible for multiplayer functionality.</p>",
+  "description": "Dedicated server for Valheim with automatic backups and updates",
+  "tags": ["gaming", "valheim", "server", "multiplayer", "survival"],
+  "repository": "https://github.com/lloesche/valheim-server-docker",
+  "image": "ghcr.io/lloesche/valheim-server",
+  "supported_architectures": ["amd64"]
+} 

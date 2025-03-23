@@ -1,0 +1,9 @@
+{
+  "name": "Factorio Server",
+  "longDescription": "<p>Factorio is a game in which you build and maintain factories. This is the official headless server for hosting multiplayer games.</p><p>Features include:</p><ul><li>Automatic save management</li><li>Mod support</li><li>RCON for remote administration</li><li>Scenario support</li><li>Whitelisting and banlisting</li><li>Admin management</li><li>Automatic updates</li></ul><p>The server runs in a Docker container with proper permission handling and data persistence.</p>",
+  "description": "Official Factorio game server for hosting multiplayer games",
+  "tags": ["gaming", "factorio", "server", "multiplayer", "factory-building"],
+  "repository": "https://github.com/factoriotools/factorio-docker",
+  "image": "factoriotools/factorio",
+  "supported_architectures": ["amd64"]
+} 

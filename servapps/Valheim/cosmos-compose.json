@@ -1,0 +1,126 @@
+{
+  "cosmos-installer": {
+    "form": [
+      {
+        "name": "dataPath",
+        "label": "Where should Valheim store its data?",
+        "initialValue": "{DefaultDataPath}/valheim",
+        "type": "text"
+      },
+      {
+        "name": "serverName",
+        "label": "Server Name",
+        "type": "text",
+        "initialValue": "Cosmos Valheim Server"
+      },
+      {
+        "name": "worldName",
+        "label": "World Name",
+        "type": "text",
+        "initialValue": "CosmosWorld"
+      },
+      {
+        "name": "serverPassword",
+        "label": "Server Password (min 5 characters)",
+        "type": "password",
+        "initialValue": "changeme"
+      },
+      {
+        "name": "serverPublic",
+        "label": "Make server public?",
+        "type": "checkbox",
+        "initialValue": true
+      },
+      {
+        "name": "crossplay",
+        "label": "Enable crossplay?",
+        "type": "checkbox",
+        "initialValue": false
+      }
+    ],
+    "post-install": [
+      {
+        "type": "info",
+        "label": "Your Valheim server will be available on ports 2456-2457 UDP. First startup may take several minutes while downloading the server files (~1GB)."
+      }
+    ]
+  },
+  "minVersion": "0.7.6",
+  "services": {
+    "{ServiceName}": {
+      "image": "ghcr.io/lloesche/valheim-server",
+      "container_name": "{ServiceName}",
+      "restart": "unless-stopped",
+      "cap_add": ["sys_nice"],
+      "stop_timeout": 120,
+      "UID": 1000,
+      "GID": 1000,
+      "environment": [
+        "PUID=1000",
+        "PGID=1000",
+        "TZ=auto",
+        "SERVER_NAME={Context.serverName}",
+        "WORLD_NAME={Context.worldName}",
+        "SERVER_PASS={Context.serverPassword}",
+        "SERVER_PUBLIC={Context.serverPublic}",
+        "CROSSPLAY={Context.crossplay}",
+        "BACKUPS=true",
+        "BACKUPS_IF_IDLE=true",
+        "UPDATE_IF_IDLE=true"
+      ],
+      "labels": {
+        "cosmos-force-network-secured": "true",
+        "cosmos-auto-update": "true",
+        "cosmos-icon": "https://Sudo-Ivan.github.io/ivans-cosmos-servapps/servapps/Valheim/icon.png",
+        "cosmos-stack": "{ServiceName}",
+        "cosmos-stack-main": "{ServiceName}"
+      },
+      "networks": {
+        "{ServiceName}-network": {}
+      },
+      "volumes": [
+        {
+          "source": "{Context.dataPath}/config",
+          "target": "/config",
+          "type": "bind"
+        },
+        {
+          "source": "{Context.dataPath}/data",
+          "target": "/opt/valheim",
+          "type": "bind"
+        }
+      ],
+      "routes": [
+        {
+          "name": "{ServiceName}-game1",
+          "description": "Expose {ServiceName} game port 2456",
+          "useHost": true,
+          "target": "udp://{ServiceName}:2456",
+          "mode": "UDP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": false
+          }
+        },
+        {
+          "name": "{ServiceName}-game2",
+          "description": "Expose {ServiceName} game port 2457",
+          "useHost": true,
+          "target": "udp://{ServiceName}:2457",
+          "mode": "UDP",
+          "Timeout": 14400000,
+          "ThrottlePerMinute": 12000,
+          "BlockCommonBots": true,
+          "SmartShield": {
+            "Enabled": false
+          }
+        }
+      ]
+    }
+  },
+  "networks": {
+    "{ServiceName}-network": {}
+  }
+} 
